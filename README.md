@@ -1,5 +1,7 @@
 # 在线视频学习平台
 
+开发日志请看doc目录下的[UpdateLogs.md](doc/UpdateLogs.md)文件
+
 ## 计划开发三大模块
     在线视频学习
     在线题库, 在线debug（暂定）
