@@ -55,6 +55,12 @@ public class WebConfiguration implements WebMvcConfigurer {
         resolver.setViewClass(FreeMarkerView.class);
         resolver.setSuffix(".ftl");
         resolver.setContentType("text/html;charset=UTF-8");
+
+        //@author 赵飞
+        resolver.setExposeRequestAttributes(true);
+        resolver.setExposeSessionAttributes(true);
+        resolver.setRequestContextAttribute("request");
+        //配置request，session结束
         return resolver;
     }
 
