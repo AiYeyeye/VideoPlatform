@@ -1,0 +1,2370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="baidu-site-verification" content="I4Hb0KGrvc" />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="2XbyW13gITwtG5AYsL-Tg6QJ9offyyd2FV6Vdo7J7Yx5RfiWhU-IpF47WbtW46Wl9iuwgenRuw3mZX9WmANvYg==">
+    <title>51CTO学院_专业的IT技能学习平台|自学网络视频教程|IT在线培训课程|Python|大数据|Java|PHP|IT考证|产品经理|Office|IT在线教育</title>
+    <meta name="keywords" content="IT在线教育,IT在线培训,IT培训,我要自学网,IT精品课,大数据培训,Python培训,XXXX运维培训,华为认证培训,安卓培训,软考培训,PHP培训,微职位,慕课,MOOC,慕课课程">
+<meta name="description" content="51CTO学院IT职业在线教育平台是依托12年行业品牌、1400万IT技术用户建立的专业IT技能学习培训平台，已签约1000多位技术专家发布了12万个自学式实战慕课MOOC视频。此外，我们还开设了辅导式微职位IT在线培训班，涵盖Python培训、运维培训、大数据培训、Web前端培训、IT考证培训等领域，随到随学、通关学习、一对一辅导，助你升职加薪。">        <link href="https://static1.51cto.com/edu/center/css/base.css?v=2.4.7" rel="stylesheet"><link href="https://static1.51cto.com/edu/center/css/activity_tab.css?v=1.10" rel="stylesheet">
+    <script type="text/javascript">_centerURL='http://edu.51cto.com/center/',imgpath='https://static1.51cto.com/edu/images/whitestyle/',upDomain = 'http://upload.51cto.com/',ImgUpDomain = 'http://upload.51cto.com/index.php?c=upload&m=upimg';_urls={user:'http://edu.51cto.com/center/user/user-index/index?user_id=888',lec:'http://edu.51cto.com/lecturer/888.html',spec:'http://edu.51cto.com/topic/888.html',pack:'http://edu.51cto.com/atlas/888.html',wejob:'http://edu.51cto.com/mic-position/888.html',course:'http://edu.51cto.com/course/888.html'},hmtPro='其他';</script>
+    <script src="https://static1.51cto.com/edu/center/js/jquery.min.js"></script><script src="https://static1.51cto.com/edu/center/js/prototype_create.js"></script><script src="https://static1.51cto.com/edu/center/js/plugins.js?v=1.0.9"></script><script src="https://static1.51cto.com/edu/plugin/mbox.v2.js?v=0.1.2"></script><script src="https://static1.51cto.com/edu/center/js/autoload_list.js?v=1.0.4"></script><script src="https://static1.51cto.com/edu/center/js/base.js?v=1.3.9"></script></head>
+<body>
+        <script type="text/javascript">
+  var _picdomin = "https://s8.51cto.com/";
+</script>
+<div class="Header3 white ">
+  <div class="Page">
+    <ul>
+      <li class="fl logo"><a href="../../../edu_51cto_default.html"><img src="https://static1.51cto.com/edu/center/images/logo_01.png"></a></li>
+      <li class="fl"><a href="../../../edu_51cto_default.html">首页</a></li>
+      <li class="fl">
+        <a style="background-image: url(https://s1.51cto.com/images/201804/02/82a177dec20c40df9addff4aaed18060.png);background-repeat: no-repeat;background-size: 17%;background-position: 80px center;padding-right: 32px;" href="../../course/micro-course/micro-course.html">行家微课</a>
+      </li>
+      <li class="fl">
+        <a href="../../../courselist/index_2.html">找课程</a>
+        <div class="ALLCourse" id="ALLCourse">
+          <div class="List" id="ALLCourseList"></div>
+        </div>
+      </li>      
+      <li class="fl"><a href="../../../px/px_2.html">微职位</a></li>
+      <li class="fl"><a href="http://edu.51cto.com/topiclist/index.html">专题</a></li>
+      <!-- <li class="fl"><a href="http://edu.51cto.com/atlaslist/index.html">技能图谱</a></li> -->
+      <!-- <li class="fl"><a href="http://edu.51cto.com/activity/lists/id-10.html?jiandaohang">APP下载</a></li> -->
+            <li class="topSearch fl">
+        <form action="../../course/index/search.htm" method="get" id="TopSearchFrom">
+          <input type="text" placeholder="找课程,找讲师" name="q" maxlength="30" autocomplete="off">
+          <button class="icon search" type="submit"></button>
+        </form>
+      </li>
+      
+      <li class="fr links">
+        <a href="javascript:void(0);">
+          <i class="icon"></i>
+        </a>
+        <div class="More">
+          <dl>
+            <dt>线上学习</dt>
+            <dd class="th2">
+              <p><a href="../../../px/px.html" target="_blank">微职位</a></p>
+              <p><a href="../../../courselist/index.html" target="_blank">视频课程</a></p>
+              <p><a href="../../../atlaslist/index_2.html" target="_blank">技能图谱</a></p>
+              <p><a href="http://b.edu.51cto.com/site/home?wzdh" target="_blank">企业内训</a></p>
+              <p><a href="../../../activity/lists/id-10.html" target="_blank">APP下载</a></p>
+              <!-- <p><a href="http://edu.51cto.com/user/studyGains.html?wzdh" target="_blank">学员故事</a></p> -->
+              <p><a href="http://edu.51cto.com/topiclist/index.html" target="_blank">学习专题</a></p>
+              <p><a href="http://edu.51cto.com/lecturer/leclist.html?wzdh" target="_blank">签约讲师</a></p>
+              <p><a href="../../../partner/index.html" target="_blank">合作机构</a></p>
+              <p><a href="http://book.51cto.com/" target="_blank">读书频道</a></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>互动社区</dt>
+            <dd class="th1">
+              <p><a href="http://blog.51cto.com/" target="_blank">博客</a></p>
+              <p><a href="http://bbs.51cto.com/" target="_blank">论坛</a></p>
+              <p><a href="http://down.51cto.com/" target="_blank">下载</a></p>
+              <p><a href="http://weizhan.51cto.com/" target="_blank">微站</a></p>
+              <p><a href="http://home.51cto.com/" target="_blank">家园</a></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>资讯产品</dt>
+            <dd class="th2">
+              <p><a href="http://www.51cto.com/tag/practice/" target="_blank">实践录</a></p>
+              <p><a href="http://zhuanlan.51cto.com/" target="_blank">专栏</a></p>
+              <p><a href="http://www.51cto.com/tag/original/" target="_blank">原创</a></p>
+              <p><a href="http://www.51cto.com/tag/translation/" target="_blank">译文</a></p>
+              <p><a href="http://www.51cto.com/col/35/" target="_blank">专题</a></p>         
+              <p><a href="http://www.cioage.com/cio.html" target="_blank" rel="nofollow">智享汇</a></p>
+              <p><a href="http://www.51cto.com/tag/practice" target="_blank">足迹</a></p>
+              <p><a href="http://www.51cto.com/tag/interviews" target="_blank">匠心</a></p>
+              <p><a href="http://www.51cto.com/tag/huiyan" target="_blank">慧眼</a></p>
+              <p><a href="http://www.51cto.com/tag/video/" target="_blank">视频</a></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>线下学习</dt>
+            <dd class="th1">
+              <p><a href="http://x.51cto.com/?edutop" target="_blank">CTO训练营</a></p>              
+              <p><a href="http://club.51cto.com?edutop" target="_blank">CTO俱乐部</a></p>
+              <p><a href="http://wot.51cto.com/?edutop" target="_blank">WOT峰会</a></p>
+            </dd>
+          </dl>
+          <dl class="noBorder">
+            <dt>服务指南</dt>
+            <dd class="th1">
+              <p><a href="../../about/index/help.htm" target="_blank">帮助中心</a></p>
+              <p><a href="../../about/index/feedback.htm" target="_blank">意见反馈</a></p>
+              <p><a href="http://blog.51cto.com/51edu/1862738" target="_blank">学员QQ群</a></p>
+              <p><a href="javascript:;" class="zhiCustomBtn">联系客服</a></p>
+              <p><a href="http://www.51cto.com/?wzdh" target="_blank">51CTO主站</a></p>
+            </dd>
+          </dl>
+        </div>
+        <div class="empty"></div>
+      </li>
+            <li class="fr"><a class="fr LoginReg" href="http://edu.51cto.com/user/login.html">登录/注册</a></li>
+            <li class="clear"></li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">$("#TopSearchFrom").find('input').keyup(function(){$(this).val($(this).val().substr(0,30))}).keydown(function(e){if(e.keyCode == 13 && $.trim($(this).val()).length==0){return false;};}).next().click(function(){if($.trim($(this).prev().val()).length==0) return false;});</script>    <script type="text/javascript">
+var user_id=isUser='';
+var _now = 1531095619;
+setInterval(function(){_now++},1000)
+</script>
+<link rel="stylesheet" href="https://static1.51cto.com/edu/css/actlist/act_04/style.css">
+<link rel="stylesheet" href="https://static1.51cto.com/edu/css/actlist/act_04/style_2.css">
+<style type="text/css">body{background: #f4f0f7;}</style>
+<div class="everyBox">
+  <div class="bannerTop">
+    <div class="Page">
+      <div style="position:absolute; right:0; top:80px; width:153px; text-align:center; color:#fff;">
+        <img src="https://static1.51cto.com/edu/css/actlist/act_12/12/code-day.png" width="153" height="153" alt="" />
+        <div style="font-size:13px;">下载51CTO学院APP</div>
+        <div style="font-size:16px; line-height:1;">手机秒课 更方便</div>
+      </div>
+    </div>
+  </div>
+    <div class="Page">
+    <script type="text/javascript">var dkts=[],dkts0=[]</script>
+    <div class="Day">
+    <div class="Discount">
+      <div class="ins">
+                  <a href="javascript:void(0);" tid = "1813" class="ms_1 cur ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.09</b>
+                <b class="b2">08:00</b>
+              </span>
+                              <span class="msdjs">
+                  <b class="b1">距结束</b>
+                  <b class="b2 djsSec" t="1531098000"></b>
+                </span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531098000);var dt = "2017/07.09 08:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1825" class="ms_2  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.09</b>
+                <b class="b2">14:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531116000);var dt = "2017/07.09 14:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1815" class="ms_3  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.09</b>
+                <b class="b2">20:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531137600);var dt = "2017/07.09 20:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+              </div>
+    </div>
+    <div class="cList cList_whtie">
+            <ul class="cur">
+                <li class="item items_13888">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13888.html" target="_blank"><img src="https://s1.51cto.com/images/201804/07/7a4a10eb4221349404ee3940842e909b.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13888.html" class="title" target="_blank">​【区块链】以太坊（Ethereum）入门实战视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/1684318.html">刘宗泽</a></p>
+            <div class="price">
+            <p>秒杀价￥197</p>
+            <p class="del">课程定价￥329</p>
+            </div>
+                        <button class="buyNow" cid="13888">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13877">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13877.html" target="_blank"><img src="https://s1.51cto.com/images/201806/10/11bb31e46e8580e2d560e627a4efbb46.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>0</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13877.html" class="title" target="_blank">网络瑞士军刀-netcat的秘诀</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12102806.html">刘晓阳</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <button class="buyNow" cid="13877">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                    <div class="listbg"></div>
+          <span class="round">已抢光</span>
+                  </li>
+                <li class="item items_13875">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13875.html" target="_blank"><img src="https://s1.51cto.com/images/201806/10/6e8f856fbf1a2004f3178592ab215f70.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>2</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13875.html" class="title" target="_blank">Hadoop系列-HDFS分布式文件系统详解</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/1209108.html">陈建平</a></p>
+            <div class="price">
+            <p>秒杀价￥7</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <button class="buyNow" cid="13875">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13861">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13861.html" target="_blank"><img src="https://s1.51cto.com/images/201806/07/f4e3da6acdf557d3a6ce452d398a37b4.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>9</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13861.html" class="title" target="_blank">Cisco CCNP 思科认证网络高级工程师 高级交换技术视频课程【韩宇】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/6484465.html">韩宇</a></p>
+            <div class="price">
+            <p>秒杀价￥34</p>
+            <p class="del">课程定价￥69</p>
+            </div>
+                        <button class="buyNow" cid="13861">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13857">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13857.html" target="_blank"><img src="https://s1.51cto.com/images/201806/08/986cf51041c34a6f1c8323e268c2a825.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>0</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13857.html" class="title" target="_blank">CCNA网络工程师基础视频课程，网络基本概念</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥1</p>
+            <p class="del">课程定价￥9</p>
+            </div>
+                        <button class="buyNow" cid="13857">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                    <div class="listbg"></div>
+          <span class="round">已抢光</span>
+                  </li>
+                <li class="item items_13824">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13824.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/23d1c94a08e1f667a818e6d7bba04255.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13824.html" class="title" target="_blank">商务PPT模板设计大法视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13776465.html">司马懿</a></p>
+            <div class="price">
+            <p>秒杀价￥59</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <button class="buyNow" cid="13824">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13240">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13240.html" target="_blank"><img src="https://s1.51cto.com/images/201804/23/05dde7ec0346a91bc57fe3163b8758a2.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13240.html" class="title" target="_blank">2018年CCNA最新交换专题之VLAN间路由视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2815930.html">新任帮主</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <button class="buyNow" cid="13240">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12987">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12987.html" target="_blank"><img src="https://s1.51cto.com/images/201803/17/3e8d67537c6f252d20119fc16a96c0ee.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>8</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12987.html" class="title" target="_blank">Windows项目实战开发视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13282345.html">杨波</a></p>
+            <div class="price">
+            <p>秒杀价￥58</p>
+            <p class="del">课程定价￥588</p>
+            </div>
+                        <button class="buyNow" cid="12987">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12398">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12398.html" target="_blank"><img src="https://s1.51cto.com/images/201801/27/6aa84646c41fc042fc855558c4c08c3e.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>2</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12398.html" class="title" target="_blank">EXCEL数据处理基础视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/9395.html">数智学堂官方账号</a></p>
+            <div class="price">
+            <p>秒杀价￥4</p>
+            <p class="del">课程定价￥8</p>
+            </div>
+                        <button class="buyNow" cid="12398">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_11971">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/11971.html" target="_blank"><img src="https://s1.51cto.com/images/201712/16/b995ab48520836ca8fee84ccfb8f3b20.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>8</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/11971.html" class="title" target="_blank">《Axure RP8 快速入门+项目实战》精品视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/5712206.html">刘刚</a></p>
+            <div class="price">
+            <p>秒杀价￥64</p>
+            <p class="del">课程定价￥128</p>
+            </div>
+                        <button class="buyNow" cid="11971">立即抢购</button>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_12489">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12489.html" target="_blank"><img src="https://s1.51cto.com/images/201806/14/1f7bbfab847cbd45452361340ad05df7.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12489.html" class="title" target="_blank">2018年最新OSPF理论+实战课程【偏向CCIE】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2815930.html">新任帮主</a></p>
+            <div class="price">
+            <p>秒杀价￥69</p>
+            <p class="del">课程定价￥139</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12334">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12334.html" target="_blank"><img src="https://s1.51cto.com/images/201803/15/3e8a9588cb9b31ce95e8e3116b37e46b.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12334.html" class="title" target="_blank">C++项目实战开发系列视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13282345.html">杨波</a></p>
+            <div class="price">
+            <p>秒杀价￥69</p>
+            <p class="del">课程定价￥699</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12576">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12576.html" target="_blank"><img src="https://s1.51cto.com/images/201802/12/9915000eed3903eb69fb014f9f5d9271.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12576.html" class="title" target="_blank">《嵌入式技术 基础课程》之逆向-X86汇编</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥28</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12824">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12824.html" target="_blank"><img src="https://s1.51cto.com/images/201803/14/b0fe4b552d46a19e6f7650ae60376756.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12824.html" class="title" target="_blank">【Python版pyspark】Spark大数据基础入门视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12583563.html">张敏</a></p>
+            <div class="price">
+            <p>秒杀价￥79</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12985">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12985.html" target="_blank"><img src="https://s1.51cto.com/images/201803/28/2fb99432374d97be0177803d63879275.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12985.html" class="title" target="_blank">面向对象C#零基础入门视频课程精讲（2）C#语言基础</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13469594.html">徐照兴</a></p>
+            <div class="price">
+            <p>秒杀价￥3</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13197">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13197.html" target="_blank"><img src="https://s1.51cto.com/images/201804/15/5bc5ed63d6116ea813e3f0f69dd2929f.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13197.html" class="title" target="_blank">CAD2010零基础入门二维平面三维建模视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13455148.html">张小军</a></p>
+            <div class="price">
+            <p>秒杀价￥20</p>
+            <p class="del">课程定价￥68</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13193">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13193.html" target="_blank"><img src="https://s1.51cto.com/images/201805/23/c2a117efb2b1778205905010709e219a.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13193.html" class="title" target="_blank">Filebeat+Redis+ELK6全实战视频教程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/8808431.html">实践哥</a></p>
+            <div class="price">
+            <p>秒杀价￥11</p>
+            <p class="del">课程定价￥23</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13187">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13187.html" target="_blank"><img src="https://s1.51cto.com/images/201804/13/032bd9ad2169e786d73bf5cf14bec3e7.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13187.html" class="title" target="_blank">生产计划排程APS(高级计划与排程)理论,算法和系统设计</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13631429.html">冯春山</a></p>
+            <div class="price">
+            <p>秒杀价￥49</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13368">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13368.html" target="_blank"><img src="https://s1.51cto.com/images/201804/24/6990ac83eae6733c206f02c50683ea14.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13368.html" class="title" target="_blank">【孙伟老师UID课堂】APP项目-引导页设计与用户体验视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13436093.html">孙伟</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13894">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13894.html" target="_blank"><img src="https://s1.51cto.com/images/201806/12/56bd270a90842c81e3a4659fe8baa48a.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13894.html" class="title" target="_blank">跟宁哥学Go语言视频课程（4）：函数</a>
+            <p class="lec">讲师 <a href="../../../lecturer/974126.html">李宁</a></p>
+            <div class="price">
+            <p>秒杀价￥7</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_13848">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13848.html" target="_blank"><img src="https://s1.51cto.com/images/201806/26/11a00ac81bd8e051989888c72b669f64.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13848.html" class="title" target="_blank">PMP®认证考试第六版冲刺课程（1天）【1809期】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13594226.html">陈朋之</a></p>
+            <div class="price">
+            <p>秒杀价￥99</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13836">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13836.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/975f831798644a02030403fd9270c59e.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13836.html" class="title" target="_blank">零基础学习ArcGIS Desktop基本操作视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12822988.html">小天老师</a></p>
+            <div class="price">
+            <p>秒杀价￥25</p>
+            <p class="del">课程定价￥50</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13821">
+          <div class="pic">
+            <a href="../../../course/13821.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/6d2f74a7ba8d860dd0ee28acf30f527b.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13821.html" class="title" target="_blank">纯净版windows系列系统U盘安装视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥4</p>
+            <p class="del">课程定价￥8</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13782">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13782.html" target="_blank"><img src="https://s1.51cto.com/images/201805/29/066a35f6181b411056d402c7dc7de349.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13782.html" class="title" target="_blank">Java程序员面试宝典视频课程之java入门面试题（二）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2340749.html">刘英杰</a></p>
+            <div class="price">
+            <p>秒杀价￥5</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13713">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13713.html" target="_blank"><img src="https://s1.51cto.com/images/201805/30/ba4442ed646ddb24ebfbfca37225124c.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13713.html" class="title" target="_blank">【视频课程】树莓派应用-家庭私有云，不仅仅是云~</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/93357.html">仇龙大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥34</p>
+            <p class="del">课程定价￥68</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13488">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13488.html" target="_blank"><img src="https://s1.51cto.com/images/201805/02/0fdfe2e4acab9fb91fbbbc79c801a6f6.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13488.html" class="title" target="_blank">网络工程师小白IPv6入门---【CCNA、HCNA网络工程师IPv6自学视频课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/532091.html">晁海江</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥29</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13474">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13474.html" target="_blank"><img src="https://s1.51cto.com/images/201805/06/22ee6c50aad1f86b75423e40b6425b24.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13474.html" class="title" target="_blank">UNIX环境高级编程(上篇)</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/9403294.html"> 周磊</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥24</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13458">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13458.html" target="_blank"><img src="https://s1.51cto.com/images/201805/03/c37ed761107d2041e5fa4843a658f5b2.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13458.html" class="title" target="_blank">Python从小白到大牛：项目实战5：迷失航线游戏开发视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/701759.html">关东升</a></p>
+            <div class="price">
+            <p>秒杀价￥51</p>
+            <p class="del">课程定价￥258</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13344">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13344.html" target="_blank"><img src="https://s1.51cto.com/images/201806/01/7ff8cd2568a2d01cb9fe380e8f85213f.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13344.html" class="title" target="_blank">《Linux系统编程、网络编程》第5章 进程控制【视频课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13542">
+          <div class="pic">
+            <a href="../../../course/13542.html" target="_blank"><img src="https://s1.51cto.com/images/201805/12/ec3dc25f4bc4c44ed920cea09c0623a4.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13542.html" class="title" target="_blank">标杆徐2018最新Linux自动化运维系列③: MySQL运维入门实战视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/8340258.html">徐亮伟</a></p>
+            <div class="price">
+            <p>秒杀价￥99</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+          </div>
+  </div>
+    <div class="Day">
+    <div class="Discount">
+      <div class="ins">
+                  <a href="javascript:void(0);" tid = "1816" class="ms_1  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.10</b>
+                <b class="b2">08:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531180800);var dt = "2017/07.10 08:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1817" class="ms_2  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.10</b>
+                <b class="b2">14:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531202400);var dt = "2017/07.10 14:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1818" class="ms_3  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.10</b>
+                <b class="b2">20:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531224000);var dt = "2017/07.10 20:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+              </div>
+    </div>
+    <div class="cList cList_whtie">
+            <ul >
+                <li class="item items_13840">
+          <div class="pic">
+            <a href="../../../course/13840.html" target="_blank"><img src="https://s1.51cto.com/images/201806/07/9b7f153b7567ec92d92ae8f2a9143b16.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13840.html" class="title" target="_blank">零基础学习ArcGIS Python脚本开发视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12822988.html">小天老师</a></p>
+            <div class="price">
+            <p>秒杀价￥99</p>
+            <p class="del">课程定价￥198</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13835">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13835.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/74cad464afbc6cc70683ffd256333ef6.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13835.html" class="title" target="_blank">Hadoop系列-MapReduce分布式计算框架详解视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/1209108.html">陈建平</a></p>
+            <div class="price">
+            <p>秒杀价￥13</p>
+            <p class="del">课程定价￥66</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13763">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13763.html" target="_blank"><img src="https://s1.51cto.com/images/201805/29/20410bf2d73b1c630e950979988fc993.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13763.html" class="title" target="_blank">Java程序员面试宝典视频课程之就业指导（一）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2340749.html">刘英杰</a></p>
+            <div class="price">
+            <p>秒杀价￥3</p>
+            <p class="del">课程定价￥10</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13471">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13471.html" target="_blank"><img src="https://s1.51cto.com/images/201805/03/4a66778b2089634d3836ab1efb5545af.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13471.html" class="title" target="_blank">颠覆式开发Master方案-TypeScript极速完全进阶指南视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13582288.html">面包理想学院官方账号</a></p>
+            <div class="price">
+            <p>秒杀价￥1</p>
+            <p class="del">课程定价￥9</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13465">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13465.html" target="_blank"><img src="https://s1.51cto.com/images/201803/25/17522c76c85113937512f939e23195ce.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13465.html" class="title" target="_blank">跟我一步一步学习Xamarin视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13631553.html">何祖臣</a></p>
+            <div class="price">
+            <p>秒杀价￥29</p>
+            <p class="del">课程定价￥59</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13452">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13452.html" target="_blank"><img src="https://s1.51cto.com/images/201805/02/6d18ddd0182233816ba59102d5aae828.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13452.html" class="title" target="_blank">2018软考-计算机操作系统-数据库工程师/网络工程师/软件设计师/信息系统管理工程师</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/7187299.html">钟志宏</a></p>
+            <div class="price">
+            <p>秒杀价￥22</p>
+            <p class="del">课程定价￥45</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12952">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12952.html" target="_blank"><img src="https://s1.51cto.com/images/201803/25/58209b3109f94776efc33a844060e14c.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12952.html" class="title" target="_blank">《嵌入式技术基础课程》之8051汇编(基础部分)【视频课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13831">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13831.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/914a340bc0922440280bda72707985b7.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13831.html" class="title" target="_blank">node.js基础、express实战视频课程【杨胜强老师-前端系列课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8620646.html">杨过大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥79</p>
+            <p class="del">课程定价￥159</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13826">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13826.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/983a730a3a1fb0785bf23f851342ba5f.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13826.html" class="title" target="_blank">高大上图表工具Thinkcell视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13776465.html">司马懿</a></p>
+            <div class="price">
+            <p>秒杀价￥59</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13693">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13693.html" target="_blank"><img src="https://s1.51cto.com/images/201805/24/1fa55eb1f3139d460fac9615c9ee1762.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13693.html" class="title" target="_blank">【孙伟】基础&实用Photoshop设计软件应用标准视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13436093.html">孙伟</a></p>
+            <div class="price">
+            <p>秒杀价￥11</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_13794">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13794.html" target="_blank"><img src="https://s1.51cto.com/images/201806/04/e8875e6a42666108dc150ddb0af13273.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13794.html" class="title" target="_blank">跟着案例学物联网-智能家居视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/11968416.html">熊健</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13785">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13785.html" target="_blank"><img src="https://s1.51cto.com/images/201805/31/fda16f53cd97f84d6306b82cab89545d.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13785.html" class="title" target="_blank">Java程序员面试宝典视频课程之控制语句（四）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2340749.html">刘英杰</a></p>
+            <div class="price">
+            <p>秒杀价￥5</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13747">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13747.html" target="_blank"><img src="https://s1.51cto.com/images/201806/02/8d2aebc281206e41172b12dd0deebd69.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13747.html" class="title" target="_blank">零基础入门树莓派学习Python初级视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/93357.html">仇龙大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13720">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13720.html" target="_blank"><img src="https://s1.51cto.com/images/201805/30/37d16fc5a6c4c730d30b9c47190217e8.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13720.html" class="title" target="_blank">面向对象C#零基础入门精讲视频课程（8）文件操作视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13469594.html">徐照兴</a></p>
+            <div class="price">
+            <p>秒杀价￥3</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13622">
+          <div class="pic">
+            <a href="../../../course/13622.html" target="_blank"><img src="https://s1.51cto.com/images/201805/20/c0849a76c6c9d216c3270955487bc83a.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13622.html" class="title" target="_blank">JAVA区块链项目实战视频课程（含源码）</a>
+            <p class="lec">讲师 <a href="../../../lecturer/4567390.html">文武艺</a></p>
+            <div class="price">
+            <p>秒杀价￥349</p>
+            <p class="del">课程定价￥698</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13618">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13618.html" target="_blank"><img src="https://s1.51cto.com/images/201805/15/e964ac77a68c468c6695d2bf37a0e85e.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13618.html" class="title" target="_blank">Windows高级编程之动态链接库DLL（第三章）</a>
+            <p class="lec">讲师 <a href="../../../lecturer/8403723.html">袁春旭</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13677">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13677.html" target="_blank"><img src="https://s1.51cto.com/images/201805/25/90f9b5229fd824138a86e1a3a2be0e0f.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13677.html" class="title" target="_blank">RHCSA-RHCE模拟考试环境搭建和解法视频课程（22道题）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥66</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13638">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13638.html" target="_blank"><img src="https://s1.51cto.com/images/201805/22/e961c9e81ef887f85111e038ad729aa6.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13638.html" class="title" target="_blank">【视频课程】树莓派基础课程（模块安装+配置+使用）仇龙大侠带您走入树莓派的世界，打造自己的物联网！</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/93357.html">仇龙大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥38</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13594">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13594.html" target="_blank"><img src="https://s1.51cto.com/images/201805/18/cfa400ca0b63aaf44530c141e9eef9d4.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13594.html" class="title" target="_blank">Java超经典面试宝典【上】-Java基础</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/4267887.html">杨亮</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13492">
+          <div class="pic">
+            <a href="../../../course/13492.html" target="_blank"><img src="https://s1.51cto.com/images/201805/07/a13d987d5555c691cb65d921522df336.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13492.html" class="title" target="_blank">计算机网络考研视频教程2018</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/400469_2.html">韩立刚</a></p>
+            <div class="price">
+            <p>秒杀价￥99</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_13660">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13660.html" target="_blank"><img src="https://s1.51cto.com/images/201803/21/6576da9e9bc5e1bf1f95470b0fc31e74.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13660.html" class="title" target="_blank">从官方例程深度学习海思SDK及API-第2/11季视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/9584512.html">朱有鹏</a></p>
+            <div class="price">
+            <p>秒杀价￥449</p>
+            <p class="del">课程定价￥899</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13654">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13654.html" target="_blank"><img src="https://s1.51cto.com/images/201805/23/1202065b119bef4e1b6e8660ea350813.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13654.html" class="title" target="_blank">面向对象C#零基础入门精讲视频课程（7）C#常用类视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13469594.html">徐照兴</a></p>
+            <div class="price">
+            <p>秒杀价￥2</p>
+            <p class="del">课程定价￥12</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13620">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13620.html" target="_blank"><img src="https://s1.51cto.com/images/201805/28/01c65314570f2697690796e9d3b7a15c.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13620.html" class="title" target="_blank">windows操作系统安装视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/3807925.html">王正刚</a></p>
+            <div class="price">
+            <p>秒杀价￥5</p>
+            <p class="del">课程定价￥10</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13585">
+          <div class="pic">
+            <a href="../../../course/13585.html" target="_blank"><img src="https://s1.51cto.com/images/201805/16/bfe1a24b193986446f81669d1d8d8ea5.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13585.html" class="title" target="_blank">Docker基础快速入门视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12583563.html">张敏</a></p>
+            <div class="price">
+            <p>秒杀价￥24</p>
+            <p class="del">课程定价￥49</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13535">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13535.html" target="_blank"><img src="https://s1.51cto.com/images/201805/11/ad8173ad16e7bcbec0722e6d871eda2f.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13535.html" class="title" target="_blank">python全栈开发：C02课程前端开发和Bootstrap入门及实战</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/1403836.html">李哲</a></p>
+            <div class="price">
+            <p>秒杀价￥89</p>
+            <p class="del">课程定价￥299</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13512">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13512.html" target="_blank"><img src="https://s1.51cto.com/images/201806/01/70d5f2a80210298ad5d1d331c43c434b.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13512.html" class="title" target="_blank">《Linux系统编程、网络编程》第8章 C线程视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13481">
+          <div class="pic">
+            <a href="../../../course/13481.html" target="_blank"><img src="https://s1.51cto.com/images/201805/06/66a86136c9876648b88b5575df2b6193.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13481.html" class="title" target="_blank">云计算中云服务的规划和使用视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2296976.html">时瑞</a></p>
+            <div class="price">
+            <p>秒杀价￥6</p>
+            <p class="del">课程定价￥69</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13449">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13449.html" target="_blank"><img src="https://s1.51cto.com/images/201805/02/55eb0624e80f1cd4e6505e57bf3da926.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13449.html" class="title" target="_blank">Python从小白到大牛：项目实战3：开发PetStore宠物商店项目视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/701759.html">关东升</a></p>
+            <div class="price">
+            <p>秒杀价￥47</p>
+            <p class="del">课程定价￥159</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_14111">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14111.html" target="_blank"><img src="https://s1.51cto.com/images/201806/29/b4f193fa6fb44c71b802ca4f6d0e0213.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14111.html" class="title" target="_blank">Jquery语法基础与插件制作【杨胜强老师-前端系列课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8620646.html">杨过大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥29</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13966">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13966.html" target="_blank"><img src="https://s1.51cto.com/images/201806/15/a5ba7568adafb623687e888b77c5e16b.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13966.html" class="title" target="_blank">JavaScript前端开发技术视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2086101.html">张晨光</a></p>
+            <div class="price">
+            <p>秒杀价￥1</p>
+            <p class="del">课程定价￥9</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+          </div>
+  </div>
+    <div class="Day">
+    <div class="Discount">
+      <div class="ins">
+                  <a href="javascript:void(0);" tid = "1819" class="ms_1  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.11</b>
+                <b class="b2">08:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531267200);var dt = "2017/07.11 08:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1820" class="ms_2  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.11</b>
+                <b class="b2">14:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531288800);var dt = "2017/07.11 14:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1821" class="ms_3  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.11</b>
+                <b class="b2">20:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531310400);var dt = "2017/07.11 20:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+              </div>
+    </div>
+    <div class="cList cList_whtie">
+            <ul >
+                <li class="item items_13443">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13443.html" target="_blank"><img src="https://s1.51cto.com/images/201805/02/403ef22db8e2610dd71d3c227cc2d436.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13443.html" class="title" target="_blank">骨干网割接案例（三）-改变MPLS VPN跨域互联方式</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/4866070.html">吴忠捷</a></p>
+            <div class="price">
+            <p>秒杀价￥11</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13431">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13431.html" target="_blank"><img src="https://s1.51cto.com/images/201805/04/63886e8cda1b3a566c0ab7f8c3dd9465.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13431.html" class="title" target="_blank">CCNP高级交换之防环机制[switch]</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2815930.html">新任帮主</a></p>
+            <div class="price">
+            <p>秒杀价￥49</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13362">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13362.html" target="_blank"><img src="https://s1.51cto.com/images/201804/23/897c061f2927e0265bb668c5a69b6441.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13362.html" class="title" target="_blank">《嵌入式技术ARM裸机开发》之GPIO与LED【视频课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥7</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13127">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13127.html" target="_blank"><img src="https://s1.51cto.com/images/201804/09/666923a35faf28387bc07a60335afe38.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13127.html" class="title" target="_blank">Scala语言基础知识筑基宝典视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/9383297.html">马彦平</a></p>
+            <div class="price">
+            <p>秒杀价￥3</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13112">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13112.html" target="_blank"><img src="https://s1.51cto.com/images/201712/26/58433af532f56a2638f8046ea89d664a.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13112.html" class="title" target="_blank">Oracle物化视图使用详解视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/1850277.html">黄利强</a></p>
+            <div class="price">
+            <p>秒杀价￥15</p>
+            <p class="del">课程定价￥77</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12895">
+          <div class="pic">
+            <a href="../../../course/12895.html" target="_blank"><img src="https://s1.51cto.com/images/201803/20/ed0ca0af7c1035a059c49cfdd78932dd.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/12895.html" class="title" target="_blank">渗透测试工程师课程-Web安全基础之Http协议(课程需要在电脑上学习，如果在手机上学习会出现无声)</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12102806.html">刘晓阳</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12894">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12894.html" target="_blank"><img src="https://s1.51cto.com/images/201803/20/3bca90b46331ca19674e9a2925078f7e.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12894.html" class="title" target="_blank">Web架构LNMP部署实战全攻略视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2895551.html">高俊峰</a></p>
+            <div class="price">
+            <p>秒杀价￥12</p>
+            <p class="del">课程定价￥25</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12887">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12887.html" target="_blank"><img src="https://s1.51cto.com/images/201807/05/1321ce03d28a6a4cb988cb989351780c.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12887.html" class="title" target="_blank">Excel2016数据透视表视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13551065.html">肖潇</a></p>
+            <div class="price">
+            <p>秒杀价￥2</p>
+            <p class="del">课程定价￥9</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12734">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12734.html" target="_blank"><img src="https://s1.51cto.com/images/201803/07/9fbf919abc959298e782c7fac3c60a91.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12734.html" class="title" target="_blank">颠覆式开发Master方案之面试JS</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13582288.html">面包理想学院官方账号</a></p>
+            <div class="price">
+            <p>秒杀价￥1</p>
+            <p class="del">课程定价￥9</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12084">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12084.html" target="_blank"><img src="https://s1.51cto.com/images/201712/20/0d2d721636e7fe29f3eff7d2295c6525.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12084.html" class="title" target="_blank">Axure RP 8.0：∞从0开始（已美国官方认证）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13523326.html">小草老师</a></p>
+            <div class="price">
+            <p>秒杀价￥54</p>
+            <p class="del">课程定价￥109</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_13820">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13820.html" target="_blank"><img src="https://s1.51cto.com/images/201806/05/f56ae7c2c8c9a50d5b14833b90f53f4f.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13820.html" class="title" target="_blank">商务PPT情景分析视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13776465.html">司马懿</a></p>
+            <div class="price">
+            <p>秒杀价￥34</p>
+            <p class="del">课程定价￥49</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13795">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13795.html" target="_blank"><img src="https://s1.51cto.com/images/201806/05/129a496fe2e6c6edf74bcca5e56966f1.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13795.html" class="title" target="_blank">虚拟化系列视频课程（一）-------虚拟化理论基础</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥34</p>
+            <p class="del">课程定价￥68</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13788">
+          <div class="pic">
+            <a href="../../../course/13788.html" target="_blank"><img src="https://s1.51cto.com/images/201806/04/2c451c2298a4e0bc3023729c687cb2be.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13788.html" class="title" target="_blank">人人都会深度学习之Tensorflow基础快速入视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12583563.html">张敏</a></p>
+            <div class="price">
+            <p>秒杀价￥49</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13786">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13786.html" target="_blank"><img src="https://s1.51cto.com/images/201805/29/d1a963d29dc430cc7bfc702c3d601174.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13786.html" class="title" target="_blank">Java程序员面试宝典视频课程之数据类型（三）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2340749.html">刘英杰</a></p>
+            <div class="price">
+            <p>秒杀价￥8</p>
+            <p class="del">课程定价￥28</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13543">
+          <div class="pic">
+            <a href="../../../course/13543.html" target="_blank"><img src="https://s1.51cto.com/images/201806/04/26a9726d5226ed94a12a1498fe18b279.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13543.html" class="title" target="_blank">服务器硬件工程师从入门到精通系列视频教程（2）－RAID篇</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/839604.html">赵振坤</a></p>
+            <div class="price">
+            <p>秒杀价￥99</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13541">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13541.html" target="_blank"><img src="https://s1.51cto.com/images/201805/27/eee06cad75444a84ad75bb275c2e7201.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13541.html" class="title" target="_blank">跟宁哥学Go语言（2）：Go语言程序结构视频教程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/974126.html">李宁</a></p>
+            <div class="price">
+            <p>秒杀价￥3</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13462">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13462.html" target="_blank"><img src="https://s1.51cto.com/images/201806/01/41810b07a59c40ee14dc32bbec906034.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13462.html" class="title" target="_blank">《Linux系统编程、网络编程》第7章 进程间通信（本机IPC）视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥28</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13459">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13459.html" target="_blank"><img src="https://s1.51cto.com/images/201805/03/113cba54a6026035d217436406c84881.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13459.html" class="title" target="_blank">Spring Boot 2.x 实现《百思不得姐》APP爬虫项目视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13651690.html">齐毅</a></p>
+            <div class="price">
+            <p>秒杀价￥34</p>
+            <p class="del">课程定价￥68</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13453">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13453.html" target="_blank"><img src="https://s1.51cto.com/images/201805/02/d7cc499b6c660569a5cc9bba6e92fa73.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13453.html" class="title" target="_blank">海思平台上USB WIFI的移植与局域网无线调试和视频流预览-第5/11季视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/9584512.html">朱有鹏</a></p>
+            <div class="price">
+            <p>秒杀价￥349</p>
+            <p class="del">课程定价￥699</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13450">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13450.html" target="_blank"><img src="https://s1.51cto.com/images/201805/04/b4bace4c3e60c91940db730c18b17a48.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13450.html" class="title" target="_blank">【张小军】Photoshop CC2017零基础入门+实操进阶+案例讲解视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13455148.html">张小军</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥39</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_13432">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13432.html" target="_blank"><img src="https://s1.51cto.com/images/201804/24/aba613b03d85b3160fe6a45ce00a325e.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13432.html" class="title" target="_blank"> 在线考试系统商业项目视频课程 </a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8307455.html">赖国荣</a></p>
+            <div class="price">
+            <p>秒杀价￥179</p>
+            <p class="del">课程定价￥598</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13383">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13383.html" target="_blank"><img src="https://s1.51cto.com/images/201804/20/8aec79d92b4ea8a734436c0731870c3c.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13383.html" class="title" target="_blank">Windows高级编程之同步异步IO（第一章）</a>
+            <p class="lec">讲师 <a href="../../../lecturer/8403723.html">袁春旭</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥29</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13476">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13476.html" target="_blank"><img src="https://s1.51cto.com/images/201805/06/88b8d79dbbcc2a3f4ba43bf626eacd0d.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13476.html" class="title" target="_blank">大话量子通信(QKD)——走进量子时代视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13705160.html">张洪博</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13342">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13342.html" target="_blank"><img src="https://s1.51cto.com/images/201804/22/ba59c41e3b9049b589851517cb432fc7.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13342.html" class="title" target="_blank">基于.Net Core微服务架构视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/730810.html">桂素伟</a></p>
+            <div class="price">
+            <p>秒杀价￥239</p>
+            <p class="del">课程定价￥399</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13306">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13306.html" target="_blank"><img src="https://s1.51cto.com/images/201804/19/89d202c6df47965f695a9b04a435034d.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13306.html" class="title" target="_blank">2018年Websocket视频教程 SpringBoot+Maven整合正版视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13662582.html">张颜源</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥29</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13301">
+          <div class="pic">
+            <a href="../../../course/13301.html" target="_blank"><img src="https://s1.51cto.com/images/201804/19/ee60cc7c69ca3e3d227d86407a02d9e0.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13301.html" class="title" target="_blank">MySQL InnoDB存储引擎深入分析与管理_MySQL数据库基础深入与核心解析04</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8020378_2.html">风哥</a></p>
+            <div class="price">
+            <p>秒杀价￥134</p>
+            <p class="del">课程定价￥268</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13117">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13117.html" target="_blank"><img src="https://s1.51cto.com/images/201804/06/94722d89783178910ddb79965e1c3a0d.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13117.html" class="title" target="_blank">JavaScript枯燥、难学？Just Play It 视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13582288.html">面包理想学院官方账号</a></p>
+            <div class="price">
+            <p>秒杀价￥99</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12946">
+          <div class="pic">
+            <a href="../../../course/12946.html" target="_blank"><img src="https://s1.51cto.com/images/201803/25/e6b5b32a3f38907932f8e631a0a96f1a.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/12946.html" class="title" target="_blank">《嵌入式技术基础课程》之ARM汇编【视频课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥29</p>
+            <p class="del">课程定价￥58</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12893">
+          <div class="pic">
+            <a href="../../../course/12893.html" target="_blank"><img src="https://s1.51cto.com/images/201803/20/f45d5ec9e3b8bf1c2bdc4760cdf34414.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/12893.html" class="title" target="_blank">Nginx下配置HTTPS证书服务视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2895551.html">高俊峰</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥15</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12886">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12886.html" target="_blank"><img src="https://s1.51cto.com/images/201803/14/d7317ddf8de2aa769defdcb7d8568a99.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12886.html" class="title" target="_blank">Java分布式之互联网金融P2P项目实战视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13191210.html">扣丁学堂</a></p>
+            <div class="price">
+            <p>秒杀价￥238</p>
+            <p class="del">课程定价￥398</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+          </div>
+  </div>
+    <div class="Day">
+    <div class="Discount">
+      <div class="ins">
+                  <a href="javascript:void(0);" tid = "1826" class="ms_1  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.12</b>
+                <b class="b2">08:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531353600);var dt = "2017/07.12 08:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1827" class="ms_2  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.12</b>
+                <b class="b2">14:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531375200);var dt = "2017/07.12 14:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+                  <a href="javascript:void(0);" tid = "1828" class="ms_3  ">
+            <strong>
+              <span class="mstime">
+                <b class="b1">07.12</b>
+                <b class="b2">20:00</b>
+              </span>
+                              <span class="btnbuy">即将开始</span>
+                          </strong>
+            <script type="text/javascript">dkts.push(1531396800);var dt = "2017/07.12 20:00:00";dt.replace('.','/');dkts0.push(parseInt(new Date(dt).getTime()/1000));</script>
+          </a>
+              </div>
+    </div>
+    <div class="cList cList_whtie">
+            <ul >
+                <li class="item items_13547">
+          <div class="pic">
+            <a href="../../../course/13547.html" target="_blank"><img src="https://s1.51cto.com/images/201805/12/f4fcb9ca123bd259d2c96a52dbb92edd.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="../../../course/13547.html" class="title" target="_blank">Docker Swarm企业应用容器集群管理平台</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10607791.html">罗小峰</a></p>
+            <div class="price">
+            <p>秒杀价￥49</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13137">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13137.html" target="_blank"><img src="https://s1.51cto.com/images/201804/08/faadb1bce89ea6cfa6b50174109ba82e.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13137.html" class="title" target="_blank"> JavaScript深度揭秘视频课程 第三部分</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13248913.html">陈学辉</a></p>
+            <div class="price">
+            <p>秒杀价￥79</p>
+            <p class="del">课程定价￥159</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12865">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12865.html" target="_blank"><img src="https://s1.51cto.com/images/201803/17/c90a34105bf347265facfac790a9fcff.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12865.html" class="title" target="_blank">颠覆式开发Master方案-Vue视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13582288.html">面包理想学院官方账号</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_11947">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/11947.html" target="_blank"><img src="https://s1.51cto.com/images/201712/13/1ae6ae7961caac1e2f3c0b47c41b6a71.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/11947.html" class="title" target="_blank">微信小程序开发入门与提升视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12854747.html">张容铭</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13683">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13683.html" target="_blank"><img src="https://s1.51cto.com/images/201805/27/bff8948da00faf2e03bb5eb4dc1689cc.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13683.html" class="title" target="_blank">零基础入门树莓派学习Linux视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/93357.html">仇龙大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥19</p>
+            <p class="del">课程定价￥38</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13513">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13513.html" target="_blank"><img src="https://s1.51cto.com/images/201805/08/df3713c736808405786cec6aa3cca937.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13513.html" class="title" target="_blank">《嵌入式技术ARM裸机开发》之时钟系统和电源管理视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥18</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12505">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12505.html" target="_blank"><img src="https://s1.51cto.com/images/201802/03/28ab574a2a666e13471a91aba7c1e2ee.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12505.html" class="title" target="_blank">鼎捷易飞ERP基础实操视频教程【完结】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/773180.html">卓致羽</a></p>
+            <div class="price">
+            <p>秒杀价￥23</p>
+            <p class="del">课程定价￥58</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_11341">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/11341.html" target="_blank"><img src="https://s1.51cto.com/images/201801/25/3d748109afe0d6df67c71a60da4e83d5.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/11341.html" class="title" target="_blank">阿里巴巴钉钉办公软件视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12509664.html">Array老师</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13281">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13281.html" target="_blank"><img src="https://s1.51cto.com/images/201804/18/10c6320486051d521061fa4940fca911.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13281.html" class="title" target="_blank">思科ASA防火墙入门视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/1025688.html">赵阶旭</a></p>
+            <div class="price">
+            <p>秒杀价￥24</p>
+            <p class="del">课程定价￥48</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13613">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13613.html" target="_blank"><img src="https://s1.51cto.com/images/201805/30/6ad026ffcef6e666ab3b806e2b5ab9c3.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13613.html" class="title" target="_blank">CCIE-专题-BGP视频课程（附PPT以及RFC文档）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥51</p>
+            <p class="del">课程定价￥128</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_14173">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14173.html" target="_blank"><img src="https://s1.51cto.com/images/201807/04/9575fa7e76eb1e045d76cd365a97d1ae.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14173.html" class="title" target="_blank">通过代币学智能合约开发（视频课程）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13447438.html">熊丽兵</a></p>
+            <div class="price">
+            <p>秒杀价￥3</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_14163">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14163.html" target="_blank"><img src="https://s1.51cto.com/images/201806/30/6a5a539c37d94d5db51b5de957036b46.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14163.html" class="title" target="_blank">CCNP路由专题视频课程（包括EIGRP专题，OSPF专题，路由重分布）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥134</p>
+            <p class="del">课程定价￥336</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_14108">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14108.html" target="_blank"><img src="https://s1.51cto.com/images/201806/29/9549949a24fab4025c35164a3524105e.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14108.html" class="title" target="_blank">jQueryMobile移动开发视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2086101.html">张晨光</a></p>
+            <div class="price">
+            <p>秒杀价￥5</p>
+            <p class="del">课程定价￥29</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_14058">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14058.html" target="_blank"><img src="https://s1.51cto.com/images/201806/25/8d28d532dea8fb4bec408e826b7dbda9.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14058.html" class="title" target="_blank">JavaScript插件制作视频教程【杨胜强老师-前端系列课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8620646.html">杨过大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥11</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13708">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13708.html" target="_blank"><img src="https://s1.51cto.com/images/201805/29/a8008c20a86f5282ab182c231e5951cb.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13708.html" class="title" target="_blank">RTSP协议详解与实时流视频预览-第6/11季视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/9584512.html">朱有鹏</a></p>
+            <div class="price">
+            <p>秒杀价￥449</p>
+            <p class="del">课程定价￥899</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13214">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13214.html" target="_blank"><img src="https://s1.51cto.com/images/201806/01/a4418a466e83c11b895add939fc8d12a.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13214.html" class="title" target="_blank">《Linux系统编程、网络编程》第4章 进程环境【视频课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥4</p>
+            <p class="del">课程定价￥9</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_12958">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/12958.html" target="_blank"><img src="https://s1.51cto.com/images/201803/26/c954021f0a9e26751358922f6b3d68d3.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/12958.html" class="title" target="_blank">网络工程师（HCNA ｜CCNA）视频</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13388056.html">郝旺</a></p>
+            <div class="price">
+            <p>秒杀价￥59</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13317">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13317.html" target="_blank"><img src="https://s1.51cto.com/images/201804/20/6588f5d56453ecea20fb8710f086e8d2.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13317.html" class="title" target="_blank">师傅带徒弟学：Python图形用户界面编程wxPython视频课程</a>
+            <p class="lec">讲师 <a href="../../../lecturer/701759.html">关东升</a></p>
+            <div class="price">
+            <p>秒杀价￥29</p>
+            <p class="del">课程定价￥49</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13254">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13254.html" target="_blank"><img src="https://s1.51cto.com/images/201804/18/a04729e5c9dce2a83efe61d9bf6198ee.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13254.html" class="title" target="_blank">CRM客户关系管理系统商业项目视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8307455.html">赖国荣</a></p>
+            <div class="price">
+            <p>秒杀价￥179</p>
+            <p class="del">课程定价￥598</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13090">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13090.html" target="_blank"><img src="https://s1.51cto.com/images/201804/03/d7cded9cef58ceefbde65cece86a318b.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13090.html" class="title" target="_blank">Web架构LAMP部署实战全攻略视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2895551.html">高俊峰</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+            <ul >
+                <li class="item items_14119">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14119.html" target="_blank"><img src="https://s1.51cto.com/images/201806/26/37d9ef09017f1adf4f95c6fb9680d785.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14119.html" class="title" target="_blank">Node.js入门基础视频课程【杨胜强老师-前端系列课程】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/8620646.html">杨过大侠</a></p>
+            <div class="price">
+            <p>秒杀价￥11</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_14015">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/14015.html" target="_blank"><img src="https://s1.51cto.com/images/201806/20/ea934a2274f4e7ef1f3b96f135c20994.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/14015.html" class="title" target="_blank">Java编程基础视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2086101.html">张晨光</a></p>
+            <div class="price">
+            <p>秒杀价￥1</p>
+            <p class="del">课程定价￥0</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13825">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13825.html" target="_blank"><img src="https://s1.51cto.com/images/201806/06/c9ad80e0fb9f6329e0652a4e7cc515d6.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13825.html" class="title" target="_blank">商务PPT演示汇报视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13776465.html">司马懿</a></p>
+            <div class="price">
+            <p>秒杀价￥24</p>
+            <p class="del">课程定价￥49</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13702">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13702.html" target="_blank"><img src="https://s1.51cto.com/images/201805/28/e42b26dcb2cf45d051548c2508e10b54.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13702.html" class="title" target="_blank">3D射击游戏作弊视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13733346.html">卢嘉文</a></p>
+            <div class="price">
+            <p>秒杀价￥56</p>
+            <p class="del">课程定价￥189</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13681">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13681.html" target="_blank"><img src="https://s1.51cto.com/images/201806/24/7aea6aaf12183eedba5d7c9b738a5e1a.png?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13681.html" class="title" target="_blank">CCNP高级交换之交换特性【Switch】</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/2815930.html">新任帮主</a></p>
+            <div class="price">
+            <p>秒杀价￥49</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13670">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13670.html" target="_blank"><img src="https://s1.51cto.com/images/201805/30/157266d7609bf38fc123b90dc04c09bc.jpeg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13670.html" class="title" target="_blank">思科认证CCNA完美学习视频课程（下篇），网络技术完美入门视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/10728146.html">庚振源</a></p>
+            <div class="price">
+            <p>秒杀价￥49</p>
+            <p class="del">课程定价￥99</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13558">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13558.html" target="_blank"><img src="https://s1.51cto.com/images/201806/01/64e4a3006c856c501f807a7e9af6ad39.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13558.html" class="title" target="_blank">《Linux系统编程、网络编程》 第9章 高级IO视频课程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12941022.html">佳嵌</a></p>
+            <div class="price">
+            <p>秒杀价￥9</p>
+            <p class="del">课程定价￥19</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13539">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13539.html" target="_blank"><img src="https://s1.51cto.com/images/201805/12/eab8359a8d58bf3df8e52c922b04bd8e.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13539.html" class="title" target="_blank">2018年Spring Boot 2.x全套视频 70集零基础入门到高级实战SpringBoot教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13662582.html">张颜源</a></p>
+            <div class="price">
+            <p>秒杀价￥14</p>
+            <p class="del">课程定价￥29</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13527">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13527.html" target="_blank"><img src="https://s1.51cto.com/images/201805/08/d0b1ff31e46a9e25c3d1448d5910d8a8.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13527.html" class="title" target="_blank">Web Service构造分布式视频课程模块化应用视频课程（2018年CXF最新版3.5精讲）</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/12371613.html">Long</a></p>
+            <div class="price">
+            <p>秒杀价￥24</p>
+            <p class="del">课程定价￥48</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+                <li class="item items_13517">
+          <div class="pic">
+            <a href="http://edu.51cto.com/course/13517.html" target="_blank"><img src="https://s1.51cto.com/images/201712/10/13c4b46e9f4ee991ba56cba25f4c1f41.jpg?x-oss-process=image/resize,m_fixed,h_365,w_487"></a>
+            <p>仅剩<span>10</span>个</p>
+          </div>
+          <div class="main">
+            <a href="http://edu.51cto.com/course/13517.html" class="title" target="_blank">Excel商务图表Dashboard视频教程</a>
+            <p class="lec">讲师 <a href="http://edu.51cto.com/lecturer/13409284.html">资越教育</a></p>
+            <div class="price">
+            <p>秒杀价￥39</p>
+            <p class="del">课程定价￥199</p>
+            </div>
+                        <div class="clear"></div>
+          </div>
+                  </li>
+              </ul>
+          </div>
+  </div>
+      </div>
+</div>
+<script type="text/javascript">
+function ttt(t){
+  var d,h,m,s;
+  h=Math.floor(t%86400/3600),h=h<10?'0'+h:''+h
+  m=Math.floor(t%86400%3600/60),m=m<10?'0'+m:''+m
+  s=t%86400%3600%60,s=s<10?'0'+s:''+s
+  return h+':'+m+':'+s;
+}
+var overTime = parseInt($(".djsSec").attr('t'))
+setInterval(function(){
+  var t = overTime-_now
+  if(t<=0){location.reload();return false;}
+  $(".djsSec").html(ttt(t))
+},1000)
+setInterval(function(){
+  if($(".ins a.cur").length==0) return false;
+  $.get(_centerURL+'activity/index/get-day-seckill-num',{time_id:$(".ins a.cur").attr('tid')},function(res){
+    $.each(res.data.course_list,function(i,e){
+      if(parseInt(e.have_num)>0){
+        $(".items_"+e.course_id).find('.pic').find('p span').html(e.have_num)
+      }else{
+        if($(".items_"+e.course_id).find('.listbg').length==0) $(".items_"+e.course_id).append('<div class="listbg"></div><span class="round">已抢光</span>').find('button').remove()
+      }
+    })
+    //
+  },'json')
+},10000)
+
+$(".ins a").click(function(){
+  $(this).addClass('cur').siblings().removeClass('cur')
+  $(this).closest('.Day').find('ul').eq($(this).index()).addClass('cur').siblings().removeClass('cur')
+})
+$(".Day").each(function(i,e){
+  if($(e).find('.ins a.cur').length==0) $(e).find('.ins a').eq(0).click()
+})
+</script>
+<script type="text/javascript" src="https://static1.51cto.com/edu/css/actlist/js/ext_mbox.js"></script>
+<script type="text/javascript" src="https://static1.51cto.com/edu/css/actlist/act_04/ac.js?v=0.0.1"></script>
+        
+
+<div class="footer_bg">
+  <div class="footer">
+    <ul class="footer_list">
+      <li><h2>新手指南</h2></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何购买</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何使用优惠券</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何开发票</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">退款政策</a></li>
+    </ul>
+    <ul class="footer_list">
+      <li><h2>关于课程</h2></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">手机上如何看课程</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何下载资料</a></li>
+      <li><a href="javascript:;"  class="zhiCustomBtn">视频卡顿反馈</a></li>
+      <li><a href="http://blog.51cto.com/51edu/2105647" target="_blank">想学习的课程登记贴</a></li>
+    </ul>
+    <ul class="footer_list">
+      <li><h2>互动交流</h2></li>
+      <li><a href="http://51edu.blog.51cto.com/8899635/1862738" target="_blank">学员QQ群</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/feedback.htm" target="_blank">意见反馈</a></li>
+      <li><a href="http://bbs.51cto.com" target="_blank">论坛交流</a></li>
+      <li><a href="http://down.51cto.com" target="_blank">资料下载</a></li>
+    </ul>
+    <ul class="footer_list">
+      <li><h2>关于我们</h2></li>
+      <li><a href="http://edu.51cto.com/center/about/index/about.htm" target="_blank">关于我们</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/contactus.htm" target="_blank">联系我们</a></li>
+      <li><a href="http://edu.51cto.com/lecturer/lectopics_2.htm" target="_blank">内容合作</a></li>
+      <li><a href="http://edu.51cto.com/friendlink.htm" target="_blank">友情链接</a></li>
+    </ul>
+    <ul class="footer_last">
+      <li><h2>客服热线</h2>09:00-19:00</li>
+      <li><h3>400-101-1651</h3></li>
+      <li>
+        <div class="sbox_more">
+          <a class="sina fl" href="http://weibo.com/51ctoedu?refer_flag=1001030101_&is_hot=1" target="_blank" rel="nofollow"></a>
+          <div class="wechat_bg fl" style="z-index:2;">
+            <a class="wechat" href="javascript:;"></a>
+            <div class="wechat_box" style="padding:0">
+              <img src="http://edu.51cto.com/images/201712/27/9ec3d7841d40316cff4f2fbb5c1e4b2a.png" width="110" height='110' alt="51CTO">
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <div class="footer_company">
+    <a href="http://edu.51cto.com/edu_51cto_default.html" target="_blank" title="51CTO学院_中国最大的IT技能学习平台"><img src="https://static1.51cto.com/edu/index/images/logo_f2.png" alt="51CTO学院_中国最大的IT技能学习平台"></a>
+    <div>
+      <a href="http://edu.51cto.com/center/about/index/publish.htm" target="_blank" style="display: inline-block;margin-right: 10px;margin-bottom: 10px;">北京无忧创想信息技术有限公司</a>
+      <a href="http://edu.51cto.com/center/about/index/business.htm" target="_blank" style="display: inline-block;margin-right: 10px;margin-bottom: 10px;">出版物经营许可证 新出发京零字第海170131号</a>
+      <a style="display: inline-block;margin-right: 10px;margin-bottom: 10px;">北京市海淀区中关村南一条甲一号2号楼602A</a><br>
+      <div class="mb10">PMI, PMP and PMBOK are registered marks of the Project Management Institute, Inc.</div>
+      Copyright © 2005-2018 <a href="http://www.51cto.com" target="_blank">51CTO.com</a>
+    </div>
+  </div>
+</div>
+
+<div class="qqbm_bs_box">
+      <a href="javascript:;" class="random_a" cf="right" target="_blank" id="exit_newuser"><img src="https://static1.51cto.com/edu/center/images/task/iocn_10.png"></a>
+        <a href="http://edu.51cto.com/px/train/248_6.htm" target="_blank"><img src="http://edu.51cto.com/images/201710/26/e0111f3735f68c6fad8e6b87936a5821.png"></a>
+    <img src="https://static1.51cto.com/edu/images/whitestyle/slider_06.png" class="zhiCustomBtn">
+  <a href="http://edu.51cto.com/center/activity/index/day-seckill.htm" onmousemove="$(this).children().eq(1).show();" onmouseout="$(this).children().eq(1).hide();" target="_blank">
+    <img src="https://static1.51cto.com/edu/images/whitestyle/yizhe2.png">
+    <img src="https://static1.51cto.com/edu/images/htk.png" style="position:absolute; left:-174px;top:0; display:none; width:174px;height:247px;">
+  </a>
+  <div onmousemove="$(this).children().eq(1).show();" onmouseout="$(this).children().eq(1).hide();" onclick="$(window).scrollTop(0);">
+    <img src="https://static1.51cto.com/edu/images/whitestyle/slider_03.png">
+    <img src="https://static1.51cto.com/edu/images/whitestyle/slider_03s.png" class="mouseIn">
+  </div>
+  <!-- <button onclick="this.parentNode.style.display = 'none';document.cookie = 'closeRightBar=1'" style="padding:0;width:58px;color:#333;background:#FFF;margin-top:2px;height:24px;line-height: 1;" class="crb">关闭</button> -->
+</div>
+<!-- 底部版块html  start -->
+<!-- 新用户大礼包html start -->
+<div class="fixpop">
+  <div class="bg"></div>
+  <div class="Page clearfix2">
+    <a href="javascript:;" class="random_a a_1s" cf="bottom" target="_blank"><img src="https://static1.51cto.com/edu/center/images/task/icon6.png" alt="" /></a>
+    <a href="javascript:;" class="random_a a_2s" cf="bottom" target="_blank">注册登录免费享</a>
+    <span class="btn_close"></span>
+  </div>
+</div>
+<!-- 新用户大礼包 html end -->
+<!-- 底部版块html  end -->
+<!-- 底部版块script start -->
+<script type="text/javascript">
+var user_id = '';
+var task_user_id = ''+'task';
+var five_user_id = ''+'five';
+var new_user_id = ''+'new';
+var is_new_user = '1';//是否是新用户
+var cookie_id = getCookie(task_user_id);
+
+var activity_five = 'activity_five';
+var activity_five_id = getCookie(activity_five);
+// 新用户大礼包 script start
+if(is_new_user && getCookie(new_user_id) != 'yes'){
+  setCookie(new_user_id, 'yes', 3600 * 24 * 30);
+}
+if(task_user_id == 'task'){
+   $("#exit_newuser").show();
+  if(cookie_id != 'yes'){
+    $(".fixpop").show();
+  }
+}else if(is_new_user){
+  if(cookie_id != 'yes'){
+    $(".fixpop").show();
+  }
+  if(getCookie(new_user_id) == 'yes'){
+    $("#exit_newuser").show();
+  }
+}
+
+$(".fixpop .btn_close").click(function(event) {
+  if(task_user_id == 'task' || is_new_user){
+    $(".fixpop").hide();
+    setCookie(task_user_id, 'yes', 3600 * 24 * 30);
+  };
+});
+  // 用户跳转统计
+  var l_url  =  location.href;
+  $('.random_a').click(function(event) {
+    _hmt.push(['_trackEvent', '新用户大礼包', '点击',$(this).attr('cf')]);
+    this.href = _centerURL+'user/index/get-task-list';
+  });
+// 新用户大礼包 script end
+</script>
+<!-- 底部版块script end -->
+<script src="http://www.sobot.com/chat/frame/js/entrance.js?sysNum=a8d9379eaf884b4f81a48348979e3b1a" id="zhichiScript" class="zhiCustomBtn" data-args="manual=true"></script>
+
+<script type="text/javascript">
+var zhiManager = (getzhiSDKInstance());
+zhiManager.on("load", function() {
+    zhiManager.initBtnDOM();
+});
+zhiManager.set('title','欢迎咨询');
+zhiManager.set('powered',false);
+zhiManager.set('customBtn', 'true');
+zhiManager.set('size',{'width':360,'height':500});
+zhiManager.set('userinfo', {partnerId:user_id,uname:'',params:'{"用户名":""}'});
+zhiManager.set('customMargin', 20);
+zhiManager.set('preVisitArgs',{'preVisitUrl': document.referrer?document.referrer:''});
+zhiManager.set('curVisitArgs',{'curVisitUrl': location.href,curVisitTitle:document.title,});
+(function() {
+    var arrlen = [{"url":"http:\/\/edu.51cto.com\/center\/course\/index\/search?q=AWS","starTime":1528214400,"endTime":1528300800},{"url":" http:\/\/edu.51cto.com\/center\/course\/index\/search?q=AWS","starTime":1528732800,"endTime":1528905600}];
+  var f_time = '1531095619';
+  if(arrlen != ""){
+    $.each(arrlen,function(k,v){
+      var len = v.url.replace(/[\u0391-\uFFE5]/g,"").length;
+          v_url = v.url.replace(/\\/g,"")
+      if(window.location.href.substring(window.location.pathname, 0, len)==v_url && f_time>v.starTime && f_time<v.endTime){window.bid = '6c61a2685dbd239c797664864e560f45'}
+    })
+  }
+})();
+$(".LoginReg").click(function(){
+  if(typeof hmtPro == 'undefined') var hmtPro = '其他'
+  _hmt.push(['_trackEvent', '顶部-注册/登录', '点击',hmtPro]);
+})
+
+
+</script>
+
+<!-- 统计代码公共部分 -->
+<script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/frontend/tj.gif' type='text/javascript'%3E%3C/script%3E")); </script>
+<script type="text/javascript">
+  //百度统计代码
+  window._hmt = window._hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    var myBid = window.bid || '8c8abdb71d78d33dfdb885e0bc71dae0'
+    hm.src = "https://hm.baidu.com/hm.js?" + myBid;
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- 谷歌统计代码 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118863081-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118863081-1');
+</script>
+<span style="display:none;">
+<script src="https://logs.51cto.com/rizhi/count/count.js"></script>
+</span>
+<script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/cto.js/b57176900a4805e17afc7b8e25a43abf' type='text/javascript'%3E%3C/script%3E")); </script>
+
+
+<div style="display:none">
+    <iframe frameborder="0" scrolling="no" width="0" height="0" src="http://log.51cto.com/pageview.php?frompos=edu_art"></iframe>
+</div>
+
+
+<!-- 广告 -->
+    <script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/cto.js/d54cb05adfc38c1804f9ee1cf9ade6e0' type='text/javascript'%3E%3C/script%3E")); </script>
+</body>
+</html>

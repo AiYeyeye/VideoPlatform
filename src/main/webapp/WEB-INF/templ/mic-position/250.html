@@ -1,0 +1,984 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Python_Python自动化开发工程师_Python全栈开发工程师培训—51CTO学院</title>
+  <meta name="keywords" content="Python,Python自动化开发工程师培训,Python全栈开发工程师培训,python学习路线图,Python开发,Python爬虫" />
+  <meta name="description" content="51CTO学院旗下Python学院为您提供Python,Python自动化开发工程师培训,Python全栈开发工程师培训,python学习路线图,Python开发,Python爬虫等Python开发大全,一线技术大牛实战分享,通俗易懂,学完即用,解决实战技术难题." />
+  <link href="https://static1.51cto.com/edu/center/css/base.css?v=2.4.7" rel="stylesheet"><link href="https://static1.51cto.com/edu/center/css/activity_tab.css?v=1.10" rel="stylesheet">  <script type="text/javascript">
+    var image_url = 'https://s1.51cto.com/';
+    var pxy_url = 'http://pay.51cto.com/';
+    var edu_url = 'http://edu.51cto.com/';
+    var uc_api = 'http://ucenter.51cto.com/';
+    var uc_url = 'https://ucenter.51cto.com/';
+    var home_url = 'http://home.51cto.com/';
+    var uppath = 'http://u2.51cto.com/';
+    var p_url = 'P_URL';
+    var web_url = 'WEB_URL';
+    var imgpath = 'https://static1.51cto.com/edu/images/';
+    var csspath = 'https://static1.51cto.com/edu/css/';
+    var jspath = 'https://static1.51cto.com/edu/js/';
+    var edu_api = 'http://edu.51cto.com/api/php/edu_server.php';
+    var static_img = 'https://static1.51cto.com/edu/center/images/';
+    var static_css = 'https://static1.51cto.com/edu/center/css/';
+    var static_js = 'https://static1.51cto.com/edu/center/js/';
+    var static_path = 'https://static1.51cto.com/edu/center/'
+    var pxb_search = web_url+'train/search?';
+    var log_url = 'PXB_LOG_URL';
+    var sendlog_url = web_url+'log/sends';
+    if (!Date.now) {
+        Date.now = function() { return new Date().getTime(); };
+    }
+    var gen_logo = '1';
+    var course_id = 0; 
+    var _centerURL='http://edu.51cto.com/center/'
+  </script>
+       <style type="text/css">
+   .Content {padding:0;}
+   a  {color:#424242;}
+   </style>
+  <script src="https://static1.51cto.com/edu/center/js/jquery.min.js"></script><script src="https://static1.51cto.com/edu/center/js/prototype_create.js"></script><script src="https://static1.51cto.com/edu/center/js/plugins.js?v=1.0.9"></script><script src="https://static1.51cto.com/edu/plugin/mbox.v2.js?v=0.1.2"></script><script src="https://static1.51cto.com/edu/center/js/autoload_list.js?v=1.0.4"></script><script src="https://static1.51cto.com/edu/center/js/base.js?v=1.3.9"></script></head>
+<body>
+  <!-- header start -->
+  <script type="text/javascript">
+  var _picdomin = "https://s1.51cto.com/";
+</script>
+<div class="Header3 white ">
+  <div class="Page">
+    <ul>
+      <li class="fl logo"><a href="../edu_51cto_default.html"><img src="https://static1.51cto.com/edu/center/images/logo_01.png"></a></li>
+      <li class="fl"><a href="../edu_51cto_default.html">首页</a></li>
+      <li class="fl">
+        <a style="background-image: url(https://s1.51cto.com/images/201804/02/82a177dec20c40df9addff4aaed18060.png);background-repeat: no-repeat;background-size: 17%;background-position: 80px center;padding-right: 32px;" href="../center/course/micro-course/micro-course.html">行家微课</a>
+      </li>
+      <li class="fl">
+        <a href="../courselist/index_2.html">找课程</a>
+        <div class="ALLCourse" id="ALLCourse">
+          <div class="List" id="ALLCourseList"></div>
+        </div>
+      </li>      
+      <li class="fl"><a href="../px/px_2.html">微职位</a></li>
+      <li class="fl"><a href="http://edu.51cto.com/topiclist/index.html">专题</a></li>
+      <!-- <li class="fl"><a href="http://edu.51cto.com/atlaslist/index.html">技能图谱</a></li> -->
+      <!-- <li class="fl"><a href="http://edu.51cto.com/activity/lists/id-10.html?jiandaohang">APP下载</a></li> -->
+            <li class="topSearch fl">
+        <form action="../center/course/index/search.htm" method="get" id="TopSearchFrom">
+          <input type="text" placeholder="找课程,找讲师" name="q" maxlength="30" autocomplete="off">
+          <button class="icon search" type="submit"></button>
+        </form>
+      </li>
+      
+      <li class="fr links">
+        <a href="javascript:void(0);">
+          <i class="icon"></i>
+        </a>
+        <div class="More">
+          <dl>
+            <dt>线上学习</dt>
+            <dd class="th2">
+              <p><a href="../px/px.html" target="_blank">微职位</a></p>
+              <p><a href="../courselist/index.html" target="_blank">视频课程</a></p>
+              <p><a href="../atlaslist/index_2.html" target="_blank">技能图谱</a></p>
+              <p><a href="http://b.edu.51cto.com/site/home?wzdh" target="_blank">企业内训</a></p>
+              <p><a href="../activity/lists/id-10.html" target="_blank">APP下载</a></p>
+              <!-- <p><a href="http://edu.51cto.com/user/studyGains.html?wzdh" target="_blank">学员故事</a></p> -->
+              <p><a href="http://edu.51cto.com/topiclist/index.html" target="_blank">学习专题</a></p>
+              <p><a href="http://edu.51cto.com/lecturer/leclist.html?wzdh" target="_blank">签约讲师</a></p>
+              <p><a href="../partner/index.html" target="_blank">合作机构</a></p>
+              <p><a href="http://book.51cto.com/" target="_blank">读书频道</a></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>互动社区</dt>
+            <dd class="th1">
+              <p><a href="http://blog.51cto.com/" target="_blank">博客</a></p>
+              <p><a href="http://bbs.51cto.com/" target="_blank">论坛</a></p>
+              <p><a href="http://down.51cto.com/" target="_blank">下载</a></p>
+              <p><a href="http://weizhan.51cto.com/" target="_blank">微站</a></p>
+              <p><a href="http://home.51cto.com/" target="_blank">家园</a></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>资讯产品</dt>
+            <dd class="th2">
+              <p><a href="http://www.51cto.com/tag/practice/" target="_blank">实践录</a></p>
+              <p><a href="http://zhuanlan.51cto.com/" target="_blank">专栏</a></p>
+              <p><a href="http://www.51cto.com/tag/original/" target="_blank">原创</a></p>
+              <p><a href="http://www.51cto.com/tag/translation/" target="_blank">译文</a></p>
+              <p><a href="http://www.51cto.com/col/35/" target="_blank">专题</a></p>         
+              <p><a href="http://www.cioage.com/cio.html" target="_blank" rel="nofollow">智享汇</a></p>
+              <p><a href="http://www.51cto.com/tag/practice" target="_blank">足迹</a></p>
+              <p><a href="http://www.51cto.com/tag/interviews" target="_blank">匠心</a></p>
+              <p><a href="http://www.51cto.com/tag/huiyan" target="_blank">慧眼</a></p>
+              <p><a href="http://www.51cto.com/tag/video/" target="_blank">视频</a></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>线下学习</dt>
+            <dd class="th1">
+              <p><a href="http://x.51cto.com/?edutop" target="_blank">CTO训练营</a></p>              
+              <p><a href="http://club.51cto.com?edutop" target="_blank">CTO俱乐部</a></p>
+              <p><a href="http://wot.51cto.com/?edutop" target="_blank">WOT峰会</a></p>
+            </dd>
+          </dl>
+          <dl class="noBorder">
+            <dt>服务指南</dt>
+            <dd class="th1">
+              <p><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">帮助中心</a></p>
+              <p><a href="http://edu.51cto.com/center/about/index/feedback.htm" target="_blank">意见反馈</a></p>
+              <p><a href="http://blog.51cto.com/51edu/1862738" target="_blank">学员QQ群</a></p>
+              <p><a href="javascript:;" class="zhiCustomBtn">联系客服</a></p>
+              <p><a href="http://www.51cto.com/?wzdh" target="_blank">51CTO主站</a></p>
+            </dd>
+          </dl>
+        </div>
+        <div class="empty"></div>
+      </li>
+            <li class="fr"><a class="fr LoginReg" href="http://edu.51cto.com/user/login.html">登录/注册</a></li>
+            <li class="clear"></li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">$("#TopSearchFrom").find('input').keyup(function(){$(this).val($(this).val().substr(0,30))}).keydown(function(e){if(e.keyCode == 13 && $.trim($(this).val()).length==0){return false;};}).next().click(function(){if($.trim($(this).prev().val()).length==0) return false;});</script>  <!-- header end -->
+
+  <!-- content start -->
+  <div class="Content">
+    <link rel="stylesheet" type="text/css" href="https://static1.51cto.com/edu/css/pxbtrain/94/css/style.css">
+<div class="wrap">
+    <div class="sec_ban">
+        <div class="banner" id="banner2">
+            <div class="banner-view"></div>
+            <div class="banner-btn"></div>
+            <div class="banner-number"></div>
+            <div class="banner-progres"></div>
+        </div>
+        <a href="javascript:;" class="btns arrowing2 openLY">点击咨询详情</a>
+    </div>
+
+  <div class="sec1">
+    <div class="w_1100"><a href="javascript:;" class="btns openLY">点击了解详情</a></div>
+  </div>  
+  <div class="sec2">
+    <div class="hidebank"></div>
+    <div class="navs">
+      <div class="w_1100">
+        <ul class="clearfix2">
+          <li><a href="javascript:;" class="openLY">课程特色</a></li>
+          <li><a href="javascript:;" class="openLY">课程大纲</a></li>
+          <li><a href="javascript:;" class="openLY">项目实战</a></li>
+          <li><a href="javascript:;" class="openLY">授课名师</a></li>
+          <li><a href="javascript:;" class="openLY">奖学金</a></li>
+          <li><a href="javascript:;" class="openLY">合作名企</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="offsettop"></div>
+    <div class="w_1100 pt65">
+      <div class="alltit animate attscroll"><span><b class="bl"></b><b class="br"></b><i>四</i><i>大</i><i>热</i><i>门</i><i>问</i><i>题</i><i>带</i><i>你</i><i>揭</i><i>开</i><i>Python</i><i>面</i><i>纱</i></span></div>
+      <div class="entit">Four hot issues show you the python veil</div>
+      <div class="cont">
+        <h5><span class="num">1</span>Python--第三大主流编程语言</h5>
+        <div class="dec">Python , 是一种面向对象的解释型计算机程序设计语言，具有丰富和强大的库，Python 已经成为继JAVA，C++之后的的第三大语言。 特点：简单易学、免费开源、高层语言、可移植性强、面向对象、可扩展性、可嵌入型、丰富的库、规范的代码等。</div>
+      </div>
+    </div>
+    <ul class="ucont clearfix2">
+      <li>
+        <span class="num">2</span>
+        <div class="line1">Python--</div>
+        <div class="line2">无所不能的编程语言</div>
+        <div class="xx"></div>
+        <div class="line3"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/pt1.jpg" height="163" width="310" alt="" /></div>
+        <div class="line4">Python可以说全能，系统运维、图形处理、数学处理、文本处理、数据库编程、网络编程、web编程、多媒体应用、pymo引擎、黑客编程、爬虫编写、机器学习、人工智能等等。</div>
+        <div class="tc mt25"><a href="javascript:;" class="btns arrowing3 openLY">点击了解详情</a></div>
+      </li>
+      <li>
+        <span class="num">3</span>
+        <div class="line1">Python--</div>
+        <div class="line2">企业越来越热衷的语言</div>
+        <div class="xx"></div>
+        <div class="line3"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/pt2.jpg" height="163" width="310" alt="" /></div>
+        <div class="line4">Python的应用特别广，国内：豆瓣、搜狐、金山、通讯、盛大、网易、百度、阿里、土豆、新浪等，国外：谷歌、NASA、YouTube、Facebook、红帽等企业都在广泛应用。</div>
+        <div class="tc mt25"><a href="javascript:;" class="btns arrowing3 openLY">点击了解详情</a></div>
+      </li>
+      <li>
+        <span class="num">4</span>
+        <div class="line1">Python--</div>
+        <div class="line2">名企高薪就业之路</div>
+        <div class="xx"></div>
+        <div class="line3"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/pt3.jpg" height="163" width="310" alt="" /></div>
+        <div class="line4">培训完的Python学员就业薪资基本上都在15K以上，最高的50K进了阿里巴巴，薪资与培训之前涨幅50%以上，不仅仅是因为技术的先近性，还有就是现在急缺人才。</div>
+        <div class="tc mt25"><a href="javascript:;" class="btns arrowing3 openLY">点击了解详情</a></div>
+      </li>
+    </ul>
+  </div>
+  <div class="sec3">
+    <div class="w_1100 pt65 pb50">
+      <div class="alltit alltit_w"><span><b class="bl"></b><b class="br"></b>六步一站式服务方案带你成为python工程师</span></div>
+      <div class="entit entit_w">The six step one stop service plan brings you to be a python engineer</div>
+      <ul class="features clearfix2  openLY">
+        <li class="hvr-rectangle-out">
+          <div class="ins ins1">
+            <div class="tt">独家教学方案</div>
+            <div class="dec">我们紧跟国际IT技术潮流，四大名企经验名师打造<br />为学员打造行业最先进的教学大纲</div>
+          </div>
+        </li>
+        <li class="hvr-rectangle-out">
+          <div class="ins ins2">
+            <div class="tt">独家实战项目</div>
+            <div class="dec">100多家企业真实权威的项目实战，10大行业大型项目<br />学完即可解决工作中实际应用问题</div>
+          </div>
+        </li>
+        <li class="hvr-rectangle-out">
+          <div class="ins ins3">
+            <div class="tt">独家学习模式</div>
+            <div class="dec">报名就可以立马开始学习，无需再等开班，专享个人方案<br />全程录播学习加直播答疑</div>
+          </div>
+        </li>
+        <li class="hvr-rectangle-out">
+          <div class="ins ins4">
+            <div class="tt">独家助学模式</div>
+            <div class="dec">授课名师，辅导老师，班主任，就业导师4大讲师角色<br />4位名师全程指导，一站式服务</div>
+          </div>
+        </li>
+        <li class="hvr-rectangle-out">
+          <div class="ins ins4">
+            <div class="tt">独家考核模式</div>
+            <div class="dec">每个课程都设置关卡，通关后进入下个模块，督学促学<br />夯实每个模块的基础，保证高效</div>
+          </div>
+        </li>
+        <li class="hvr-rectangle-out">
+          <div class="ins ins5">
+            <div class="tt">独家就业模式</div>
+            <div class="dec">超过1000家就业合作企业，遍及全国80多个城市<br />每年超过5000名学员，进入IT名企</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sec4">
+    <div class="w_1100"><a href="javascript:;" class="btns openLY">点击抢占座位</a></div>
+  </div>
+  <div class="sec5">
+    <div class="w_1100 pt65 pb50">
+      <div class="alltit animate attscroll"><span><b class="bl"></b><b class="br"></b><i>Python</i><i>全</i><i>栈</i><i>工</i><i>程</i><i>师</i><i>课</i><i>程</i><i>大</i><i>纲</i></span></div>
+      <div class="entit">Python full stack engineer syllabus</div>
+      <div class="contents">
+                <div class="lines"></div>
+                <span class="dot dot1"></span>
+                <div class="list list1">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">1、课程准备>了解课程和学习计算机基础</div>
+                      <div class="aft_text">
+                        学习安排：1周1次作业<br />
+课程内容：课程目标、课程简介与工具、全栈的概念与未来、课程教学体系、学习最佳实践、计算机基础、打造编程环境
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list2">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">2、Python基础>从小白到掌握Python</div>
+                      <div class="aft_text">
+                        学习安排：2周2次作业<br />
+课程内容：成长型项目：51备忘录v0.21、字符串与数字、基本数据结构dict，set，tuple、控制程序的每个角落、了解函数的来龙去脉、给你想要的正则表达式、面向对象大法好
+
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list3">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">3、Python进阶>让工作开始自动化</div>
+                      <div class="aft_text">
+                        学习安排：3周3次作业<br />
+课程内容：管理目录与文件、处理任意格式的文本文件、熟练操作各种办公文件、给程序加点日志、怎么发邮件、做个小爬虫、很多时候，不用自己造轮子、迭代器，生成器，装饰器
+
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list4">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">4、web基础>为网络服务开发做好准备</div>
+                      <div class="aft_text">
+                        学习安排：5周5次作业<br />
+用Python控制服务器、使用Python操作数据库、常用网络服务中间件、web应用的历史与特点、HTML5登上历史舞台、CSS3为你的网页增光添彩、JavaScript与ES6/7让网页动起来
+
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list5">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">5、web前端框架>给你的前端代码加点料</div>
+                      <div class="aft_text">
+                       学习安排：4周4次作业<br />
+课程内容：年纪略大的jQuery、最受欢迎的Bootstrap4、工程化前端项目、流行框架：Vue
+
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list6">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">6、web后端框架>网络服务的基石</div>
+                      <div class="aft_text">
+                       学习安排：2周2次作业<br />
+课程内容：全身肌肉的Django
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list7">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">7、web全栈开发>打造属于你的网络应用</div>
+                      <div class="aft_text">
+                       学习安排：3周3次作业<br />
+课程内容：前后端分离简介、REST API的作用、跨域与安全、项目：51备忘录v1.0（Django + Vue）、项目：电子商城（Django + Vue）、项目：微信小程序、项目：差评分析平台
+
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list8">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">8、敏捷开发与架构>工作必备与进阶技能</div>
+                      <div class="aft_text">
+                      学习安排：3周3次作业<br />
+课程内容：敏捷开发流程、使用git协作开发、持续集成与部署、微服务与架构、面试常见问题
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list9">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">9、Python未来>给你终身学习的技巧</div>
+                      <div class="aft_text">
+                      学习安排：4周4次作业
+课程内容：算法与设计模式、简历与面试、学习代码规范、全栈工程师的日常、人人都是产品经理、打造你的全球智囊团、人工智能入门实践
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+                <div class="list list10">
+                   <div class="ins">
+                      <span class="mindot"></span>
+                      <span class="minline"></span>
+                      <div class="pre_text">10、Python+人工智能>机器学习入门篇</div>
+                      <div class="aft_text">
+                     学习安排：3周3次作业<br />
+课程内容：从机器学习基本算法开始逐渐到进阶内容，对于复杂的机器学习算法首先给出通俗解释并对原理进行推导解析，最后阐述应用领域与价值，对于每一个机器学习算法配套案例实战     
+                      </div>
+                      <div class="pian"></div>
+                   </div>
+                </div>
+              </div>
+      <ul class="dgul clearfix2">
+        <li>
+          <h5>Python自动化运维大纲</h5>
+          <div><a href="javascript:;" class="btns arrowing3 openLY">点击领取</a></div>
+        </li>
+        <li>
+          <h5>Python自动化测试大纲</h5>
+          <div><a href="javascript:;" class="btns arrowing3 openLY">点击领取</a></div>
+        </li>
+        <li>
+          <h5>Python数据分析大纲</h5>
+          <div><a href="javascript:;" class="btns arrowing3 openLY">点击领取</a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sec6">
+    <div class="w_1100 attscroll">
+        <div class="ts">企业实用的-- <br />全套Python实战项目</div>
+        <ul class="shizhan">
+            <li class="cur">
+                <div class="name">
+                    <div class="line1">实战一</div>
+                    <div class="line2">Python全栈开发实战</div>
+                    <span class="arro"></span>
+                </div>               
+                <div class="hidecon">
+                    <div class="ins">
+                        <h5>Python全栈开发实战</h5>
+                        <div class="dec">1、个人博客-Vue版<br />
+                        2、后台管理系统-Vue版<br />
+                        3、音乐平台-Vue版<br />
+                        4、51备忘录v1.0-Django版<br />
+                        5、电子商城-Django版<br />
+                        6、51备忘录v1.0（Django + Vue）<br />
+                        7、微信小程序<br />
+                        8、差评分析平台 <br />
+                        </div>
+                        <div class=""><a href="javascript:;" class="btns arrowing2 openLY">点击查看更多</a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="name">
+                    <div class="line1">实战二</div>
+                    <div class="line2">Python自动化开发实战</div>
+                    <span class="arro"></span>
+                </div>               
+                <div class="hidecon">
+                    <div class="ins">
+                        <h5>Python自动化开发实战</h5>
+                        <div class="dec">1、Python+Hadoop 实现大数据应用，为企业提供大数量级统计<br />
+                            2、Python + Jenkins实现企业级持续集成<br />
+                            3、Python+prometheus 实现企业级日志监控<br />
+                            4、python实现kafka消息列队<br />
+                            5、Python 实现CMDB 企业资源管理平台<br />
+                        </div>
+                        <div class=""><a href="javascript:;" class="btns arrowing2 openLY">点击查看更多</a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="name">
+                    <div class="line1">实战三</div>
+                    <div class="line2">Python自动化测试实战</div>
+                    <span class="arro"></span>
+                </div>               
+                <div class="hidecon">
+                    <div class="ins">
+                        <h5>Python自动化测试实战</h5>
+                        <div class="dec">1、单元测试、数据库驱动、MOCK、持续集成<br />
+                            2、接口自动化测试框架的设计<br />
+                            3、接口自动化测试框架的实现<br />
+                            4、接口自动化测试框架的运行<br />
+                        </div>
+                        <div class=""><a href="javascript:;" class="btns arrowing2 openLY">点击查看更多</a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="name">
+                    <div class="line1">实战四</div>
+                    <div class="line2">Python数据分析实战</div>
+                    <span class="arro"></span>
+                </div>               
+                <div class="hidecon">
+                    <div class="ins">
+                        <h5>Python数据分析实战</h5>
+                        <div class="dec">
+                        爬虫开发案例：12306自动刷票器，分布式爬虫抓取某职位招聘信息<br />
+                        1：多场景可视化构建<br />
+                        2：电影评分深度分析<br />
+                        3：某云歌曲评论人群分析，某站人群关系分析<br />
+                        4：北京二手房价格分析， python职位招聘深度分析<br />
+                        5：构建诗词搜索平台<br />
+                        6：使用第三方接口完成人脸图片标记<br />
+                        7：分布式爬虫抓取某职位招聘信息<br />
+                        </div>
+                        <div class=""><a href="javascript:;" class="btns arrowing2 openLY">点击查看更多</a></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+  </div>
+  <div class="sec7 pt65 pb50">
+    <div class="w_1100">
+        <div class="alltit animate attscroll"><span><b class="bl"></b><b class="br"></b>汇集世界名企经验讲师</span></div>
+        <div class="entit">Pooling experience lecturers from world famous enterprises</div>
+    </div>
+    <div class="tecbox">
+        <div class="w_1100">
+            <div class="tabcons">
+                <div class="conslist" style="display:block">
+                    <div class="pic"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc1.png" height="540" width="354" alt="" /></div>
+                    <div class="ttit">51CTO学院高级讲师</div>
+                    <div class="name">第8哥</div>
+                    <div class="dec">全栈工程师。多年软件开发经验，先后在世界顶级的CAE公司和大型互联网公司任职。工作中使用C++/Python/Cjavascript:;/Java/JavaScript/Angular/Vue/Docker等开发技术。为世界范围内千万客户提供软件服务及AI解决方案。现致力于Python相关技术(全栈开发，机器学习，自动化等)的研究与分享。</div>
+                </div>
+                <div class="conslist">
+                    <div class="pic"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc2.png" height="540" width="354" alt="" /></div>
+                    <div class="ttit">51CTO学院签约讲师</div>
+                    <div class="name">龙小威</div>
+                    <div class="dec">2004至今工作14年。开发4年、运维10年，有海外工作培训， 一线运维专家，外企运维架构师，技术总监，团队建设，集团运维架构设计师等经验。擅长运维相关所有技能和架构技术、极高的Linux天赋和热情、集运维架构师与金牌讲师于一身，英国中央兰开夏大学电子工程毕业，全英文教学经验，线下毕业学员近200人，线上100000+学员。    </div>
+                </div>
+                <div class="conslist">
+                    <div class="pic"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc3.png" height="540" width="354" alt="" /></div>
+                    <div class="ttit">51CTO学院高级讲师</div>
+                    <div class="name">李晓鹏</div>
+                    <div class="dec">目前任职某IT公司项目总监，参与主持多个百万级项目。从事软件测试工作10余年，在软件测试流程设计及优化、自动化测试框架的实现、性能优化等领域具有多年的实战经验；撰写的图书有：《软件功能测试——基于QuickTest Professional应用》和《软件测试管理——基于TestDirector应用》。企业测试定制培训特邀讲师，如下为部分合作企业：四维图新、中国工行总行、民生银行北京总行、中信银行、上汽集团人行支付中心等。</div>
+                </div>
+                <div class="conslist">
+                    <div class="pic"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc4.png" height="540" width="354" alt="" /></div>
+                    <div class="ttit">51CTO学院高级讲师</div>
+                    <div class="name">奇猫</div>
+                    <div class="dec">10余年一线开发经验，多年Python开发经验，曾就职于一线互联网公司，负责公司数据挖掘与可视化，推荐系统构建，机器学习AI应用等工作；精通python/c/c++编程语言，热衷技术分享，教学经验丰富，致力于在最短的时间里帮助你掌握更多python知识和实用技术。</div>
+                </div>
+            </div>
+            <div class="tabtxs clearfix2">
+                <span class="cur"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc1_m.png" height="80" width="80" alt="" /></span>
+                <span><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc2_m.png" height="80" width="80" alt="" /></span>
+                <span><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc3_m.png" height="80" width="80" alt="" /></span>
+                <span><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/tc4_m.png" height="80" width="80" alt="" /></span>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="sec8">
+    <div class="w_1100 pt65 pb50">
+         <div class="alltit animate attscroll"><span><b class="bl"></b><b class="br"></b>奖学金只为鼓励更努力的你</span></div>
+         <div class="entit">A scholarship is only to encourage you to work harder.</div>
+         <div class="mt30 clearfix2">
+
+             <span class="juli">距离截止：</span>
+             <div class="daojishi clearfix2">
+                <span id="day"></span>
+                <b>天</b>
+                <span id="hour"></span>
+                <b>时</b>
+                <span id="minute"></span>
+                <b>分</b>
+                <span id="second"></span>
+                <b>秒</b>
+            </div>
+         </div>
+         <ul class="sarmoney clearfix2">
+             <li>
+                 <h5>奖励学费<span>50%</span></h5>
+                 <div class="dec">3个月内学完全栈课程</div>
+                 <div class="card">
+                     <div class="line1">Python</div>
+                     <div class="line2">自动化运维奖学金</div>
+                     <div class=""><a href="javascript:;" class="btns openLY">点击领取</a></div>
+                 </div>
+             </li>
+             <li>
+                 <h5>奖励学费<span>30%</span></h5>
+                 <div class="dec">5个月内学完全栈课程</div>
+                 <div class="card">
+                     <div class="line1">Python</div>
+                     <div class="line2">自动化测试奖学金</div>
+                     <div class=""><a href="javascript:;" class="btns openLY">点击领取</a></div>
+                 </div>
+             </li>
+             <li>
+                 <h5>奖励学费<span>10%</span></h5>
+                 <div class="dec">7个月内学完全栈课程</div>
+                 <div class="card">
+                     <div class="line1">Python</div>
+                     <div class="line2">数据分析奖学金</div>
+                     <div class=""><a href="javascript:;" class="btns openLY">点击领取</a></div>
+                 </div>
+             </li>
+         </ul>
+    </div>
+  </div>
+  <div class="sec9">
+    <div class="w_1100">
+      <div class="dec">超过5万Python从业者聚集在51CTO学院交流分享经验</div>
+      <div class="tc"><a href="javascript:;" class="btns arrowing2 openLY">点击申请加入</a></div>
+    </div>
+  </div>
+  <div class="sec10">
+    <div class="w_1100 pt65 pb50">
+      <div class="alltit animate attscroll"><span><b class="bl"></b><b class="br"></b><i>Python</i><i>工</i><i>程</i><i>师</i><i>就</i><i>业</i><i>合</i><i>作</i><i>名</i><i>业</i></span></div>
+      <div class="entit">Python engineer's employment cooperation name industry</div>
+      <div class="mt40 mb20"><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/qy.png" height="243" width="1100" alt="" /></div>
+    </div>
+  </div>
+  <div class="sec11">
+    <div class="w_1100 pt65 pb50">
+      <div class="alltit alltit_w"><span><b class="bl"></b><b class="br"></b>还有行业认可度高的认证证书</span></div>
+      <div class="entit entit_w">There are also certified certificates with high accreditation</div>
+      <dl class="clearfix2">
+          <dt><img src="https://static1.51cto.com/edu/css/pxbtrain/94/images0510/zs.jpg" height="284" width="394" alt=""></dt>
+          <dd>
+            <div class="line1">这一次你离<span>Python工程师</span></div>
+            <div class="line2">只有<span>一步之遥......</span></div>
+          </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://static1.51cto.com/edu/css/pxbtrain/94/js/banner.js"></script>
+<script type="text/javascript">
+//吸顶导航
+function navs_scroll(){
+    var arr_tit = [];   
+    var _offsettop = parseInt($('#offsettop').offset().top-200);
+    $('.attscroll').each(function(i){
+      var listTop = parseInt($(this).offset().top-100);
+      arr_tit.push(listTop);
+    });
+    $(window).scroll(function () {
+      _top = $(document).scrollTop();
+      if (_top > _offsettop) {
+        $(".navs").addClass('navs2');
+        $(".hidebank").show();
+        
+      } else {
+        $(".navs").removeClass('navs2');
+        $(".hidebank").hide();
+      }
+      $('.navs li').removeClass('cur');
+      for(var i = 0; i < arr_tit.length; i ++){
+        if(arr_tit[i + 1]){
+          if(_top >= arr_tit[i] && _top < arr_tit[i + 1]){
+            $('.navs li').eq(i).addClass('cur');
+          }
+        }else{
+          if(_top >= arr_tit[i]){
+            $('.navs li').eq(i).addClass('cur');
+          }
+        }
+        
+      }
+    });
+    $(".navs li").each(function(index, el) {
+        $(this).click(function(event) {
+            var scrolltop = parseInt($(".attscroll").eq(index).offset().top-100);                 
+            $(this).addClass('cur').siblings().removeClass('cur');
+            $(document).scrollTop(scrolltop);     
+        });
+    });
+}
+navs_scroll()
+$(".contents .list").each(function(index, el) {
+$(this).hover(function() {
+  $(this).addClass('list_h')
+}, function() {
+  $(this).removeClass('list_h')
+});
+});
+$('.shizhan li').hover(function() {
+  $(this).addClass('cur').siblings().removeClass('cur')
+});
+$('.shizhan').mouseleave(function(event) {
+    $(this).find('li').removeClass('cur')
+    $(this).find('li').eq(0).addClass('cur')
+});
+$('.tabtxs span').each(function(index, el) {
+    $(this).click(function(){
+        $(this).addClass('cur').siblings('span').removeClass('cur')
+        $(".conslist").eq(index).show().siblings().hide();
+    })
+});
+//倒计时
+function initTime(){
+    var today, today_day, today_hour, today_minute, today_second;
+    var rest_day, rest_hour, rest_minute, rest_second;
+        today = new Date();
+    today_day = today.getDay() == 0 ? 6 : today.getDay() - 1; // 周一已过去0天，周二已过去一天，以此类推
+    today_hour = today.getHours();
+    today_minute = today.getMinutes();
+    today_second = today.getSeconds();
+    var restTime = 7 * 86400 - today_day * 86400 - today_hour * 3600 - today_minute * 60 - today_second;
+    // 秒
+    var rest_second = restTime % 60;
+    if(rest_second < 10){
+        rest_second = '0' + rest_second;
+    }
+    document.getElementById('second').innerHTML = rest_second;
+    // 分钟
+    rest_minute = (restTime - rest_second)/60 % 60;
+    if(rest_minute < 10){
+        rest_minute = '0' + rest_minute;
+    }
+    document.getElementById('minute').innerHTML = rest_minute;
+    // 小时
+    rest_hour = (restTime - rest_minute * 60 - rest_second)/3600 % 24;
+    if(rest_hour < 10){
+        rest_hour = '0' + rest_hour;
+    }
+    document.getElementById('hour').innerHTML = rest_hour;
+    // 天数
+    rest_day = (restTime - rest_hour * 3600 - rest_minute * 60 - rest_second)/86400;
+    if(rest_day < 10){
+        rest_day = '0' + rest_day;
+    }
+    document.getElementById('day').innerHTML = rest_day;
+}
+setInterval(function(){
+    initTime();
+}, 1000);
+//乐语
+var le_group,le_tan;
+var meurl = window.location.href;
+var adv_le = '';
+if(meurl.indexOf("?") > 0){
+  adv_le = meurl.split('?')[1]
+  if(adv_le.indexOf("jzl") >= 0){//站外推广乐语
+    le_group = 10066929 ;
+    le_tan = 10067452;
+  }else{//站内推广乐语
+    le_group = 10066064 ;
+    le_tan = 10068332;
+  }
+}else{//站内推广乐语
+  le_group = 10066064 ;
+  le_tan = 10068332;
+}
+
+$(".openLY").click(function(){
+    doyoo.util.openChat('g='+le_group);
+});
+if(document.location.protocol=='https:'){
+    document.write('\<script type="text\/javascript" charset="utf-8" src="http://edu.51cto.com/mic-position/https%5C:%5C/%5C/gate.soperson.com%5C/20000923%5C/'+le_tan+'%5C.js"\>\<\/script\>')
+}else{
+    document.write('\<script type="text\/javascript" charset="utf-8" src="http://edu.51cto.com/mic-position/http%5C:%5C/%5C/lead.soperson.com%5C/20000923%5C/'+le_tan+'%5C.js"\>\<\/script\>')
+}
+//lunbo
+(function () {
+    var banenr2 = new FragmentBanner({
+            size : {
+                'width' : 1920,
+                'height' : 645,
+            },
+            container : "#banner2", //选择容器 必选
+            imgs : [ 'https://static1.51cto.com/edu/css/pxbtrain/94/images0510//ban2.jpg','https://static1.51cto.com/edu/css/pxbtrain/94/images0510/ban1.jpg', 'https://static1.51cto.com/edu/css/pxbtrain/94/images0510/ban3.jpg', 'https://static1.51cto.com/edu/css/pxbtrain/94/images0510/ban4.jpg'], //图片集合
+        });
+})()
+</script>
+
+
+  </div>
+  <!-- content end -->
+
+  <!-- footer start -->
+  
+
+<div class="footer_bg">
+  <div class="footer">
+    <ul class="footer_list">
+      <li><h2>新手指南</h2></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何购买</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何使用优惠券</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何开发票</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">退款政策</a></li>
+    </ul>
+    <ul class="footer_list">
+      <li><h2>关于课程</h2></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">手机上如何看课程</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/help.htm" target="_blank">如何下载资料</a></li>
+      <li><a href="javascript:;"  class="zhiCustomBtn">视频卡顿反馈</a></li>
+      <li><a href="http://blog.51cto.com/51edu/2105647" target="_blank">想学习的课程登记贴</a></li>
+    </ul>
+    <ul class="footer_list">
+      <li><h2>互动交流</h2></li>
+      <li><a href="http://51edu.blog.51cto.com/8899635/1862738" target="_blank">学员QQ群</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/feedback.htm" target="_blank">意见反馈</a></li>
+      <li><a href="http://bbs.51cto.com" target="_blank">论坛交流</a></li>
+      <li><a href="http://down.51cto.com" target="_blank">资料下载</a></li>
+    </ul>
+    <ul class="footer_list">
+      <li><h2>关于我们</h2></li>
+      <li><a href="http://edu.51cto.com/center/about/index/about.htm" target="_blank">关于我们</a></li>
+      <li><a href="http://edu.51cto.com/center/about/index/contactus.htm" target="_blank">联系我们</a></li>
+      <li><a href="http://edu.51cto.com/lecturer/lectopics_2.htm" target="_blank">内容合作</a></li>
+      <li><a href="http://edu.51cto.com/friendlink.htm" target="_blank">友情链接</a></li>
+    </ul>
+    <ul class="footer_last">
+      <li><h2>客服热线</h2>09:00-19:00</li>
+      <li><h3>400-101-1651</h3></li>
+      <li>
+        <div class="sbox_more">
+          <a class="sina fl" href="http://weibo.com/51ctoedu?refer_flag=1001030101_&is_hot=1" target="_blank" rel="nofollow"></a>
+          <div class="wechat_bg fl" style="z-index:2;">
+            <a class="wechat" href="javascript:;"></a>
+            <div class="wechat_box" style="padding:0">
+              <img src="http://edu.51cto.com/images/201712/27/9ec3d7841d40316cff4f2fbb5c1e4b2a.png" width="110" height='110' alt="51CTO">
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <div class="footer_company">
+    <a href="http://edu.51cto.com/edu_51cto_default.html" target="_blank" title="51CTO学院_中国最大的IT技能学习平台"><img src="https://static1.51cto.com/edu/index/images/logo_f2.png" alt="51CTO学院_中国最大的IT技能学习平台"></a>
+    <div>
+      <a href="http://edu.51cto.com/center/about/index/publish.htm" target="_blank" style="display: inline-block;margin-right: 10px;margin-bottom: 10px;">北京无忧创想信息技术有限公司</a>
+      <a href="http://edu.51cto.com/center/about/index/business.htm" target="_blank" style="display: inline-block;margin-right: 10px;margin-bottom: 10px;">出版物经营许可证 新出发京零字第海170131号</a>
+      <a style="display: inline-block;margin-right: 10px;margin-bottom: 10px;">北京市海淀区中关村南一条甲一号2号楼602A</a><br>
+      <div class="mb10">PMI, PMP and PMBOK are registered marks of the Project Management Institute, Inc.</div>
+      Copyright © 2005-2018 <a href="http://www.51cto.com" target="_blank">51CTO.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- 底部版块html  start -->
+<!-- 新用户大礼包html start -->
+<!-- 新用户大礼包 html end -->
+<!-- 底部版块html  end -->
+<!-- 底部版块script start -->
+<script type="text/javascript">
+var user_id = '';
+var task_user_id = ''+'task';
+var five_user_id = ''+'five';
+var new_user_id = ''+'new';
+var is_new_user = '1';//是否是新用户
+var cookie_id = getCookie(task_user_id);
+
+var activity_five = 'activity_five';
+var activity_five_id = getCookie(activity_five);
+// 新用户大礼包 script start
+if(is_new_user && getCookie(new_user_id) != 'yes'){
+  setCookie(new_user_id, 'yes', 3600 * 24 * 30);
+}
+if(task_user_id == 'task'){
+   $("#exit_newuser").show();
+  if(cookie_id != 'yes'){
+    $(".fixpop").show();
+  }
+}else if(is_new_user){
+  if(cookie_id != 'yes'){
+    $(".fixpop").show();
+  }
+  if(getCookie(new_user_id) == 'yes'){
+    $("#exit_newuser").show();
+  }
+}
+
+$(".fixpop .btn_close").click(function(event) {
+  if(task_user_id == 'task' || is_new_user){
+    $(".fixpop").hide();
+    setCookie(task_user_id, 'yes', 3600 * 24 * 30);
+  };
+});
+  // 用户跳转统计
+  var l_url  =  location.href;
+  $('.random_a').click(function(event) {
+    _hmt.push(['_trackEvent', '新用户大礼包', '点击',$(this).attr('cf')]);
+    this.href = _centerURL+'user/index/get-task-list';
+  });
+// 新用户大礼包 script end
+</script>
+<!-- 底部版块script end -->
+
+<script type="text/javascript">
+(function() {
+    var arrlen = [{"url":"http:\/\/edu.51cto.com\/center\/course\/index\/search?q=AWS","starTime":1528214400,"endTime":1528300800},{"url":" http:\/\/edu.51cto.com\/center\/course\/index\/search?q=AWS","starTime":1528732800,"endTime":1528905600}];
+  var f_time = '1531095629';
+  if(arrlen != ""){
+    $.each(arrlen,function(k,v){
+      var len = v.url.replace(/[\u0391-\uFFE5]/g,"").length;
+          v_url = v.url.replace(/\\/g,"")
+      if(window.location.href.substring(window.location.pathname, 0, len)==v_url && f_time>v.starTime && f_time<v.endTime){window.bid = '6c61a2685dbd239c797664864e560f45'}
+    })
+  }
+})();
+$(".LoginReg").click(function(){
+  if(typeof hmtPro == 'undefined') var hmtPro = '其他'
+  _hmt.push(['_trackEvent', '顶部-注册/登录', '点击',hmtPro]);
+})
+
+if(document.location.protocol=='https:'){
+    document.write('\<script type="text\/javascript" charset="utf-8" src="http://edu.51cto.com/mic-position/https%5C:%5C/%5C/gate.soperson.com%5C/20000923%5C/10053831%5C.js"\>\<\/script\>')
+}else{
+    document.write('\<script type="text\/javascript" charset="utf-8" src="http://edu.51cto.com/mic-position/http%5C:%5C/%5C/lead.soperson.com%5C/20000923%5C/10053831%5C.js"\>\<\/script\>')
+}
+
+</script>
+
+<!-- 统计代码公共部分 -->
+<script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/frontend/tj.gif' type='text/javascript'%3E%3C/script%3E")); </script>
+<script type="text/javascript">
+  //百度统计代码
+  window._hmt = window._hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    var myBid = window.bid || '8c8abdb71d78d33dfdb885e0bc71dae0'
+    hm.src = "https://hm.baidu.com/hm.js?" + myBid;
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- 谷歌统计代码 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118863081-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118863081-1');
+</script>
+<span style="display:none;">
+<script src="https://logs.51cto.com/rizhi/count/count.js"></script>
+</span>
+<script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/cto.js/b57176900a4805e17afc7b8e25a43abf' type='text/javascript'%3E%3C/script%3E")); </script>
+
+
+<div style="display:none">
+    <iframe frameborder="0" scrolling="no" width="0" height="0" src="http://log.51cto.com/pageview.php?frompos=edu_art"></iframe>
+</div>
+
+
+<!-- 广告 -->
+  <!-- footer end -->
+
+
+  <script typ="text/javascript">
+      var levelid = 0;   //课程难度
+      var packid = 0;  //套餐ID
+      var source = 1;
+      var user_id = 0;
+      var lec_id = 0;
+      var sessionid = '9606f542f50bedf08de67de93d4cdf62';
+      var ip='112.23.7.171';
+      var rmid = 2;   //微职位详情页
+        //微职位ID[即课程ID],js值覆盖
+      $(".headMenu li[index='index']").addClass("Cur");
+  </script>
+  <script src="https://static1.51cto.com/edu/js/md5.js"></script>
+<!--  <script src="--><!--log_public.js"></script>-->
+<!--  <script src="--><!--pxb_pv_tract.js"></script>-->
+  <div style="display:none;"><script src="https://logs.51cto.com/rizhi/count/count.js" language="JavaScript"></script></div>
+
+  <script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/cto.js/5b055a2454fed8b88459c3cffdd96ed8' type='text/javascript'%3E%3C/script%3E")); </script>
+
+
+  <script type="text/javascript">
+  $(function(){
+      $('<iframe frameborder="0" scrolling="no" width="0" height="0" src="http://log.51cto.com/pageview.php?frompos=edu_art"></iframe>').appendTo('body');
+  })
+  </script>
+  <!-- 统计代码公共部分 -->
+  <script type="text/javascript"> document.write(unescape("%3Cscript src='https://tongji.51cto.com/frontend/tj.gif' type='text/javascript'%3E%3C/script%3E")); </script>
+<script type="text/javascript">
+  //百度统计代码
+  window._hmt = window._hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    var myBid = window.bid || '8c8abdb71d78d33dfdb885e0bc71dae0'
+    hm.src = "https://hm.baidu.com/hm.js?" + myBid;
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- 谷歌统计代码 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118863081-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118863081-1');
+</script></body>
+</html>
