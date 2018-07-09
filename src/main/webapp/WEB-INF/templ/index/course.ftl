@@ -665,4 +665,13 @@
         <a href="edu_51cto_default.html#nav17">其它</a>
     </div>
 </div>
+<!-- 新用户大礼包html start -->
+<div class="fixpop">
+    <div class="bg"></div>
+    <div class="Page clearfix2">
+        <a href="javascript:;" class="random_a a_1s" cf="bottom" target="_blank"><img src="https://static1.51cto.com/edu/center/images/task/icon6.png" alt=""></a>
+        <a href="javascript:;" class="random_a a_2s" cf="bottom" target="_blank">注册登录免费享</a>
+        <span class="btn_close"></span>
+    </div>
+</div>
 
