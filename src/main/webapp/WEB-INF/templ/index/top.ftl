@@ -4,7 +4,8 @@
             <li class="fl logo"><a href="/"><img src="https://static1.51cto.com/edu/center/images/logo_01.png"></a></li>
             <li class="fl"><a href="/">首页</a></li>
             <li class="fl">
-                <a style="background-image: url(https://s1.51cto.com/images/201804/02/82a177dec20c40df9addff4aaed18060.png);background-repeat: no-repeat;background-size: 17%;background-position: 80px center;padding-right: 32px;" href="http://edu.51cto.com/center/course/micro-course/">行家微课</a>
+                <a style="background-image: url(https://s1.51cto.com/images/201804/02/82a177dec20c40df9addff4aaed18060.png);background-repeat: no-repeat;background-size: 17%;background-position: 80px center;padding-right: 32px;"
+                   href="http://edu.51cto.com/center/course/micro-course/">行家微课</a>
             </li>
             <li class="fl">
                 <a href="http://edu.51cto.com/courselist/index.html">找课程</a>
@@ -35,7 +36,8 @@
                             <p><a href="http://edu.51cto.com/courselist/index.html?wzdh" target="_blank">视频课程</a></p>
                             <p><a href="http://edu.51cto.com/atlaslist/index.html?wzdh" target="_blank">技能图谱</a></p>
                             <p><a href="http://b.edu.51cto.com/site/home?wzdh" target="_blank">企业内训</a></p>
-                            <p><a href="http://edu.51cto.com/activity/lists/id-10.html?wzdh" target="_blank">APP下载</a></p>
+                            <p><a href="http://edu.51cto.com/activity/lists/id-10.html?wzdh" target="_blank">APP下载</a>
+                            </p>
                             <!-- <p><a href="http://edu.51cto.com/user/studyGains.html?wzdh" target="_blank">学员故事</a></p> -->
                             <p><a href="http://edu.51cto.com/topiclist/index.html" target="_blank">学习专题</a></p>
                             <p><a href="http://edu.51cto.com/lecturer/leclist.html?wzdh" target="_blank">签约讲师</a></p>
@@ -94,15 +96,26 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript">$("#TopSearchFrom").find('input').keyup(function(){$(this).val($(this).val().substr(0,30))}).keydown(function(e){if(e.keyCode == 13 && $.trim($(this).val()).length==0){return false;};}).next().click(function(){if($.trim($(this).prev().val()).length==0) return false;});</script><!-- 五周年 6.26~7.1 7.2~7.6 -->
+<script type="text/javascript">$("#TopSearchFrom").find('input').keyup(function () {
+    $(this).val($(this).val().substr(0, 30))
+}).keydown(function (e) {
+    if (e.keyCode == 13 && $.trim($(this).val()).length == 0) {
+        return false;
+    }
+    ;
+}).next().click(function () {
+    if ($.trim($(this).prev().val()).length == 0) return false;
+});</script><!-- 五周年 6.26~7.1 7.2~7.6 -->
 <!-- logo search start -->
 <div class="Page search_box_top" id="Nav01">
     <div class="fl Logo">
         <img class="fl" src="https://static1.51cto.com/edu/center/images/activity/logo_01.png">
     </div>
     <div class="fr Search" id="SearchCon">
-        <form class="form-search" id="Search" method="get" action="http://edu.51cto.com/center/course/index/search" target="_blank">
-            <button type="submit" class="fr" onclick="if($.trim($('#searchQ').val()).length==0){return false;};_educto.push(['_trackEvent', 'edu', 'search',$('#searchQ').val()])"></button>
+        <form class="form-search" id="Search" method="get" action="http://edu.51cto.com/center/course/index/search"
+              target="_blank">
+            <button type="submit" class="fr"
+                    onclick="if($.trim($('#searchQ').val()).length==0){return false;};_educto.push(['_trackEvent', 'edu', 'search',$('#searchQ').val()])"></button>
             <input type="text" class="fr" id="searchQ" name="q" placeholder="找课程、找讲师" autocomplete="off">
         </form>
         <div class="hotKey">
@@ -110,32 +123,40 @@
             <a href="http://edu.51cto.com/center/course/index/search?q=Excel企业实战" target="_blank">Excel企业实战</a>
             <a href="http://edu.51cto.com/center/course/index/search?q=自动化测试" target="_blank">自动化测试</a>
         </div>
-        <div class="association"><div class="list" id="associationList"></div></div>
+        <div class="association">
+            <div class="list" id="associationList"></div>
+        </div>
     </div>
     <div class="clear"></div>
 </div>
-<body>
 <!-- 通用顶部导航 start -->
 <div class="IndexHeader_old_bg Header3">
     <ul class="Page IndexHeader_old">
-        <li class="fl"><p class="f12 c66"><a href="http://www.51cto.com/" target="_blnak" style="font-size:12px;display:inline;color:#666;line-height: 1;padding:0;">51CTO首页</a></p></li>
+        <li class="fl"><p class="f12 c66"><a href="http://www.51cto.com/" target="_blnak"
+                                             style="font-size:12px;display:inline;color:#666;line-height: 1;padding:0;">51CTO首页</a>
+        </p></li>
         <li class="fr">
             <span class="tab_list">网站导航</span>
             <div class="tab_more network_list">
                 <ul class="list">
                     <li class="list_child"><h2>线上学习</h2></li>
                     <li class="list_child"><a href="http://edu.51cto.com/px/?wzdh" target="_blank">微职位</a></li>
-                    <li class="list_child"><a href="http://edu.51cto.com/course/courseList/id-all.html?wzdh" target="_blank">视频课程</a></li>
+                    <li class="list_child"><a href="http://edu.51cto.com/course/courseList/id-all.html?wzdh"
+                                              target="_blank">视频课程</a></li>
                     <li class="list_child"><a href="/center/skillmap/index/list" target="_blank">技能图谱</a></li>
                     <li class="list_child"><a href="http://b.edu.51cto.com/site/home?wzdh" target="_blank">企业内训</a></li>
-                    <li class="list_child"><a href="http://edu.51cto.com/activity/lists/id-10.html?wzdh" target="_blank">APP下载</a></li>
+                    <li class="list_child"><a href="http://edu.51cto.com/activity/lists/id-10.html?wzdh"
+                                              target="_blank">APP下载</a></li>
                 </ul>
                 <ul class="list list_on">
                     <li class="list_child"><h2></h2></li>
                     <!-- <li class="list_child"><a href="http://edu.51cto.com/user/studyGains.html?wzdh" target="_blank">学员故事</a></li> -->
-                    <li class="list_child"><a href="http://edu.51cto.com/topiclist/index.html" target="_blank">学习专题</a></li>
-                    <li class="list_child"><a href="http://edu.51cto.com/lecturer/leclist.html?wzdh" target="_blank">签约讲师</a></li>
-                    <li class="list_child"><a href="http://edu.51cto.com/partner/index.html?wzdh" target="_blank">合作机构</a></li>
+                    <li class="list_child"><a href="http://edu.51cto.com/topiclist/index.html" target="_blank">学习专题</a>
+                    </li>
+                    <li class="list_child"><a href="http://edu.51cto.com/lecturer/leclist.html?wzdh" target="_blank">签约讲师</a>
+                    </li>
+                    <li class="list_child"><a href="http://edu.51cto.com/partner/index.html?wzdh"
+                                              target="_blank">合作机构</a></li>
                     <li class="list_child"><a href="http://book.51cto.com/" target="_blank">读书频道</a></li>
                 </ul>
                 <ul class="list">
@@ -156,7 +177,8 @@
                 </ul>
                 <ul class="list list_on">
                     <li class="list_child"><h2></h2></li>
-                    <li class="list_child"><a href="http://www.cioage.com/cio.html" target="_blank" rel="nofollow">智享汇</a></li>
+                    <li class="list_child"><a href="http://www.cioage.com/cio.html" target="_blank"
+                                              rel="nofollow">智享汇</a></li>
                     <li class="list_child"><a href="http://www.51cto.com/tag/practice" target="_blank">足迹</a></li>
                     <li class="list_child"><a href="http://www.51cto.com/tag/interviews" target="_blank">匠心</a></li>
                     <li class="list_child"><a href="http://www.51cto.com/tag/huiyan" target="_blank">慧眼</a></li>
@@ -170,8 +192,10 @@
                 </ul>
                 <ul class="list">
                     <li class="list_child"><h2>服务指南</h2></li>
-                    <li class="list_child"><a href="http://edu.51cto.com/center/about/index/help" target="_blank">帮助中心</a></li>
-                    <li class="list_child"><a href="http://edu.51cto.com/center/about/index/feedback" target="_blank">意见反馈</a></li>
+                    <li class="list_child"><a href="http://edu.51cto.com/center/about/index/help"
+                                              target="_blank">帮助中心</a></li>
+                    <li class="list_child"><a href="http://edu.51cto.com/center/about/index/feedback" target="_blank">意见反馈</a>
+                    </li>
                     <li class="list_child"><a href="http://blog.51cto.com/51edu/1862738" target="_blank">学员QQ群</a></li>
                     <li class="list_child"><a href="javascript:;" class="zhiCustomBtn">联系客服</a></li>
                 </ul>
@@ -187,7 +211,6 @@
     </ul>
 </div>
 <!-- 通用顶部导航 end -->
-
 <script type="text/javascript">
     var _picdomin = "https://s8.51cto.com/";
 </script>
@@ -197,7 +220,8 @@
             <li class="fl logo"><a href="/"><img src="https://static1.51cto.com/edu/center/images/logo_01.png"></a></li>
             <li class="fl"><a href="/">首页</a></li>
             <li class="fl">
-                <a style="background-image: url(https://s1.51cto.com/images/201804/02/82a177dec20c40df9addff4aaed18060.png);background-repeat: no-repeat;background-size: 17%;background-position: 80px center;padding-right: 32px;" href="http://edu.51cto.com/center/course/micro-course/">行家微课</a>
+                <a style="background-image: url(https://s1.51cto.com/images/201804/02/82a177dec20c40df9addff4aaed18060.png);background-repeat: no-repeat;background-size: 17%;background-position: 80px center;padding-right: 32px;"
+                   href="http://edu.51cto.com/center/course/micro-course/">行家微课</a>
             </li>
             <li class="fl">
                 <a href="http://edu.51cto.com/courselist/index.html">找课程</a>
@@ -228,7 +252,8 @@
                             <p><a href="http://edu.51cto.com/courselist/index.html?wzdh" target="_blank">视频课程</a></p>
                             <p><a href="http://edu.51cto.com/atlaslist/index.html?wzdh" target="_blank">技能图谱</a></p>
                             <p><a href="http://b.edu.51cto.com/site/home?wzdh" target="_blank">企业内训</a></p>
-                            <p><a href="http://edu.51cto.com/activity/lists/id-10.html?wzdh" target="_blank">APP下载</a></p>
+                            <p><a href="http://edu.51cto.com/activity/lists/id-10.html?wzdh" target="_blank">APP下载</a>
+                            </p>
                             <!-- <p><a href="http://edu.51cto.com/user/studyGains.html?wzdh" target="_blank">学员故事</a></p> -->
                             <p><a href="http://edu.51cto.com/topiclist/index.html" target="_blank">学习专题</a></p>
                             <p><a href="http://edu.51cto.com/lecturer/leclist.html?wzdh" target="_blank">签约讲师</a></p>
@@ -287,194 +312,14 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript">$("#TopSearchFrom").find('input').keyup(function(){$(this).val($(this).val().substr(0,30))}).keydown(function(e){if(e.keyCode == 13 && $.trim($(this).val()).length==0){return false;};}).next().click(function(){if($.trim($(this).prev().val()).length==0) return false;});</script><!-- 五周年 6.26~7.1 7.2~7.6 -->
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-</body>
+<script type="text/javascript">$("#TopSearchFrom").find('input').keyup(function () {
+    $(this).val($(this).val().substr(0, 30))
+}).keydown(function (e) {
+    if (e.keyCode == 13 && $.trim($(this).val()).length == 0) {
+        return false;
+    }
+    ;
+}).next().click(function () {
+    if ($.trim($(this).prev().val()).length == 0) return false;
+});</script><!-- 五周年 6.26~7.1 7.2~7.6 -->
 <!-- logo search end -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>

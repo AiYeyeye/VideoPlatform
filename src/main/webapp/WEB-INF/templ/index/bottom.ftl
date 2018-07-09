@@ -89,50 +89,6 @@
         <span class="btn_close"></span>
     </div>
 </div>
-<!-- 新用户大礼包 html end -->
-<!-- 底部版块html  end -->
-<!-- 底部版块script start -->
-<script type="text/javascript">
-    var user_id = '';
-    var task_user_id = ''+'task';
-    var five_user_id = ''+'five';
-    var new_user_id = ''+'new';
-    var is_new_user = '1';//是否是新用户
-    var cookie_id = getCookie(task_user_id);
 
-    var activity_five = 'activity_five';
-    var activity_five_id = getCookie(activity_five);
-    // 新用户大礼包 script start
-    if(is_new_user && getCookie(new_user_id) != 'yes'){
-        setCookie(new_user_id, 'yes', 3600 * 24 * 30);
-    }
-    if(task_user_id == 'task'){
-        $("#exit_newuser").show();
-        if(cookie_id != 'yes'){
-            $(".fixpop").show();
-        }
-    }else if(is_new_user){
-        if(cookie_id != 'yes'){
-            $(".fixpop").show();
-        }
-        if(getCookie(new_user_id) == 'yes'){
-            $("#exit_newuser").show();
-        }
-    }
-
-    $(".fixpop .btn_close").click(function(event) {
-        if(task_user_id == 'task' || is_new_user){
-            $(".fixpop").hide();
-            setCookie(task_user_id, 'yes', 3600 * 24 * 30);
-        };
-    });
-    // 用户跳转统计
-    var l_url  =  location.href;
-    $('.random_a').click(function(event) {
-        _hmt.push(['_trackEvent', '新用户大礼包', '点击',$(this).attr('cf')]);
-        this.href = _centerURL+'user/index/get-task-list';
-    });
-    // 新用户大礼包 script end
-</script>
 <!-- 底部版块script end -->
 

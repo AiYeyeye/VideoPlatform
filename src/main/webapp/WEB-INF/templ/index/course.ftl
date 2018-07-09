@@ -642,4 +642,27 @@
     </div>
 </div>
 <!-- 课程列表 end -->
+<!-- 左侧导航 -->
+<div class="Side_right_bg" id="Side_list" style="height: 432px; margin-top: -216px; display: none;">
+    <div class="Side_right">
+        <a href="edu_51cto_default.html#nav0">系统/运维</a>
+        <a href="edu_51cto_default.html#nav1">云计算</a>
+        <a href="edu_51cto_default.html#nav2">大数据</a>
+        <a href="edu_51cto_default.html#nav3">Web开发</a>
+        <a href="edu_51cto_default.html#nav4">编程语言</a>
+        <a href="edu_51cto_default.html#nav5">软件研发</a>
+        <a href="edu_51cto_default.html#nav6">考试认证</a>
+        <a href="edu_51cto_default.html#nav7">数据库</a>
+        <a href="edu_51cto_default.html#nav8">网络/安全</a>
+        <a href="edu_51cto_default.html#nav9">人工智能</a>
+        <a href="edu_51cto_default.html#nav10">移动开发</a>
+        <a href="edu_51cto_default.html#nav11">游戏开发</a>
+        <a href="edu_51cto_default.html#nav12">嵌入式</a>
+        <a href="edu_51cto_default.html#nav13">服务器</a>
+        <a href="edu_51cto_default.html#nav14">企业信息化</a>
+        <a href="edu_51cto_default.html#nav15">Office办公</a>
+        <a href="edu_51cto_default.html#nav16">产品/设计</a>
+        <a href="edu_51cto_default.html#nav17">其它</a>
+    </div>
+</div>
 
