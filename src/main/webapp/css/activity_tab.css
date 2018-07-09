@@ -1,0 +1,14 @@
+
+/*小角标 zjf20170614*/
+.act_tab {display: inline-block;position: absolute;right: 0;top: 0;border: 2px solid #df3737;padding: 0 !important;z-index: 2;}
+.act_tab span {display: block !important;width: 78px;text-align: center;}
+.act_tab .act_tab_l  {height: 16px;line-height: 16px;font-size: 14px;color: #df3737;background: #fff;}
+.act_tab .act_tab_r {height: 16px;line-height: 16px;font-size: 14px;color: #fff;background: #df3737;border-top: 2px solid #df3737;}
+
+
+/* .act_piao_all {display: inline-block;padding: 0 11px;height: 26px;line-height: 26px;text-align: center;font-size: 14px;color: #fff;cursor: pointer;}
+.piao_btn {background: #f00;}
+.piao_btns {background: #ccc;} */
+
+
+
