@@ -36,7 +36,7 @@ public class WebConfiguration implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         logger.debug("Spring MVC静态资源映射...");
-
+        registry.addResourceHandler("/assets/**").addResourceLocations("/assets/");
 //        registry.addResourceHandler("/images/**").addResourceLocations("/images/");
     }
 
