@@ -16,4 +16,9 @@ public class HelloController {
         model.addAttribute("name", "World!");
         return "test";
     }
+
+    @RequestMapping("")
+    public String index() {
+        return "index";
+    }
 }
