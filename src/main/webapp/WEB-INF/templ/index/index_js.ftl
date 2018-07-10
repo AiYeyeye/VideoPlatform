@@ -1,6 +1,6 @@
-<script src="js/jquery/jquery-1.12.4.js"></script>
-<script src="../../../js/prototype_create.js"></script>
-<script src="https://static1.51cto.com/edu/center/js/plugins.js?v=1.0.9"></script>
-<script src="https://static1.51cto.com/edu/plugin/mbox.v2.js?v=0.1.2"></script>
-<script src="https://static1.51cto.com/edu/center/js/autoload_list.js?v=1.0.4"></script>
-<script src="https://static1.51cto.com/edu/center/js/base.js?v=1.3.9"></script>
+<script src="${request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
+<script src="${request.contextPath}/assets/js/prototype_create.js"></script>
+<script src="${request.contextPath}/assets/js/plugins.js"></script>
+<script src="${request.contextPath}/assets/js/mbox.v2.js"></script>
+<script src="${request.contextPath}/assets/js/autoload_list.js"></script>
+<script src="${request.contextPath}/assets/js/base.js"></script>
