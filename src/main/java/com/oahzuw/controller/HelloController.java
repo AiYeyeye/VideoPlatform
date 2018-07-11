@@ -11,9 +11,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class HelloController {
-    @RequestMapping("hello")
+/*    @RequestMapping("")
     public String hello(Model model) {
         model.addAttribute("name", "World!");
         return "test";
+    }*/
+
+    @RequestMapping("")
+    public String index() {
+        return "index";
     }
 }
